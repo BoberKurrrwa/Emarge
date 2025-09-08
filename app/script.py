@@ -38,6 +38,7 @@ if MODE == "EMARGEMENT":
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support.ui import Select
     from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
     from selenium.common.exceptions import NoSuchElementException
     from fake_useragent import UserAgent
     from bs4 import BeautifulSoup
@@ -49,6 +50,11 @@ if MODE == "EMARGEMENT":
     options = Options()
     options.add_argument('--headless')
     options.add_argument('--no-sandbox')
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument('--lang=fr-FR')
+
+    service = Service("/usr/local/bin/chromedriver")
 
     if USERNAME == 'USER' or PASSWORD == 'PASS':
         print(f"[{RED}-{RESET}] Vous devez d'abord définir les variables d'environnement USER et PASS dans le docker-compose.yml")
@@ -242,7 +248,7 @@ def emarge(course_name):
     Perform all the process like a normal student to emerge
     """
     options.add_argument(f"--user-agent={UserAgent(os='Linux').random}")
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome(service=service, options=options)
     log_print(f"Ouverture du navigateur Selenium pour {course_name}")
 
     driver.get("https://moodle.univ-ubs.fr/")
