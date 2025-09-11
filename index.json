@@ -1,0 +1,2675 @@
+{
+  "IUT de Vannes": {
+    "BUT GEA": {
+      "1ère année": {
+        "GR 1 G": [726],
+        "GR 1 T": [1508],
+        "GR 2 G": [730],
+        "GR 2 T": [1649],
+        "GR 3 G": [731],
+        "GR 3 T": [1680],
+        "GR 4 G": [706],
+        "GR 4 T": [1698],
+        "GR 5 G": [733],
+        "GR 5 T": [1715],
+        "GR 6 G": [707],
+        "GR 6 T": [5805],
+        "Gr 6 All": [2040],
+        "Gr 6 Esp": [3670],
+        "Soutien Anglais A": [3400],
+        "Soutien Compta": [3403],
+        "Soutien LF A": [4816],
+        "Soutien LF B": [7834],
+        "Soutien LF C": [7835],
+        "Soutien Maths A": [4501],
+        "Soutien Maths B": [4722],
+        "Soutien Maths C": [4624],
+        "Soutien Maths D": [3395],
+        "Soutien Maths E": [4727],
+        "Soutien Maths F": [8429]
+      },
+      "2ème année": {
+        "CG2P-All": [3584],
+        "CG2P-Esp": [5159],
+        "GC2F-A All": [1884],
+        "GC2F-A Esp": [3586],
+        "GC2F-I All": [6626],
+        "GC2F-I Esp": [6625],
+        "GEMA-FA-All": [1274],
+        "GEMA-FA-Esp": [6717],
+        "GEMA-FI1 All": [3587],
+        "GEMA-FI1 Esp": [3402],
+        "GEMA-FI2": [1290],
+        "GPRH Allemand": [3513],
+        "GPRH Espagnol": [2856]
+      },
+      "3ème année": {
+        "CG2P": [4656],
+        "GC2F": [5146],
+        "GEMA": [4655],
+        "GPRH": [5182]
+      }
+    },
+    "BUT Informatique": {
+      "1ère année": {
+        "GR 1A1 - PEI": [3543],
+        "GR 1A2": [3542],
+        "GR 1B1": [3538],
+        "GR 1B2": [3535],
+        "GR 1C1": [3532],
+        "GR 1C2": [3530],
+        "GR 1D1": [3527],
+        "GR 1D2": [3525]
+      },
+      "2ème année": {
+        "GR 2A1": [3487],
+        "GR 2A2": [3486],
+        "GR 2B1": [3484],
+        "GR 2B2": [3483],
+        "GR 2C1": [3479],
+        "GR 2C2": [3478]
+      },
+      "3ème année": {
+        "GR 3A1": [6345],
+        "GR 3A2": [6927],
+        "GR 3B1": [6932],
+        "GR 3B2": [6974]
+      }
+    },
+    "BUT SD": {
+      "1ère année": {
+        "A1": [3467],
+        "A2": [3466],
+        "B1": [3464],
+        "B2": [3463],
+        "C1": [3461],
+        "C2": [3460],
+        "D1": [10313],
+        "D2": [10405]
+      },
+      "2ème année": {
+        "EMS Gr A-FA": [6926],
+        "EMS Gr A-FI": [6827],
+        "EMS Gr A1": [4441],
+        "EMS Gr A2": [4212],
+        "EMS Gr B-FA": [6963],
+        "EMS Gr B-FI": [6968],
+        "EMS Gr B1": [1837],
+        "EMS Gr B2": [1798],
+        "VCOD Gr C-FA": [7026],
+        "VCOD Gr C-FI": [7171],
+        "VCOD Gr C1": [1997],
+        "VCOD Gr C2": [1930]
+      },
+      "3ème année": {
+        "GrA-EMS-FA": [8976],
+        "GrA-EMS-FI": [8977],
+        "GrB-EMS-FA": [9042],
+        "GrB-EMS-FI": [8992],
+        "GrC-VCOD-FA": [7842],
+        "GrC-VCOD-FI": [7831]
+      }
+    },
+    "BUT TC": {
+      "1ère année": {
+        "1.1": [3438],
+        "1.2": [3436],
+        "2.1": [3433],
+        "2.2": [3431],
+        "3.1": [3429],
+        "3.2": [3428],
+        "4.1": [3426],
+        "4.2": [3425]
+      },
+      "2ème année": {
+        "A.1": [3421],
+        "A.2": [3420],
+        "B.1": [3412],
+        "B.2": [3411],
+        "C.1": [3415],
+        "C.2": [3414],
+        "D.1": [3418],
+        "D.2": [3417],
+        "Parcours 2BDMRC": [1047],
+        "Parcours 2BI": [1118],
+        "Parcours 2MDEE.1": [8060],
+        "Parcours 2MDEE.2": [3790]
+      },
+      "3ème année": {
+        "A.1": [3872],
+        "A.2": [3873],
+        "B.1": [3874],
+        "B.2": [3880],
+        "C.1": [3887],
+        "C.2": [3918],
+        "Parcours 3BDMRC": [6017],
+        "Parcours 3BI.1": [6707],
+        "Parcours 3BI.2": [9230],
+        "Parcours 3MDEE": [6556]
+      }
+    },
+    "DCU-DSCU": {
+      "1ère année": {
+        "DSCU 1 entrants": [3507],
+        "DSCU 1 sortants": [3490]
+      },
+      "2ème année": {
+        "DSCU 2": [3494]
+      }
+    },
+    "DU ETD": {
+      "Toutes années": {
+        "DU ETD": [5298]
+      }
+    },
+    "LP": {
+      "Toutes années": {
+        "LP CD": [3577]
+      }
+    }
+  },
+  "IUT Lorient & Pontivy": {
+    "BUT GACO": {
+      "1ère année": {
+        "A1": [7919],
+        "A2": [7924],
+        "B1": [7938],
+        "B2": [7951],
+        "Espagnol débutants": [898]
+      },
+      "2ème année": {
+        "MCMO A FI": [3650],
+        "MCMO B FI": [3812],
+        "MCMO C ALT": [2967],
+        "MCMO D ALT": [905],
+        "TD MDFS A FI": [4653],
+        "TD MDFS B FI": [3154],
+        "TD MDFS C ALT": [5274],
+        "Prépa IAE": [9556]
+      },
+      "3ème année": {
+        "MCMO A ALT": [1630],
+        "MCMO B ALT": [2364],
+        "MCMO C FI": [2555],
+        "MDFS A ALT": [2660],
+        "MDFS B ALT": [2679],
+        "MDFS C FI": [2687]
+      }
+    },
+    "BUT GC-GP": {
+      "1ère année": {
+        "TDA TP1": [1965],
+        "TDA TP2": [1135],
+        "TDB TP2": [2266],
+        "TDB TP3": [4135]
+      },
+      "2ème année": {
+        "TDA TP1": [2071],
+        "TDA TP2": [1951],
+        "TDB TP2": [5677],
+        "TDB TP3": [5694]
+      },
+      "3ème année": {
+        "TDA TP1": [669],
+        "TDA TP2": [2927],
+        "TDB TP2": [2881],
+        "TDB TP3": [2671]
+      }
+    },
+    "BUT GIM": {
+      "1ère année": {
+        "A1": [2204],
+        "A2": [2203],
+        "B1": [2201],
+        "B2": [2200],
+        "C1": [780],
+        "C2": [773]
+      },
+      "2ème année": {
+        "A1 MCM": [2196],
+        "A2 MCM": [2194],
+        "B1 ARI": [2192],
+        "B2 ARI": [2190],
+        "A1 MCM app": [3452],
+        "A2 MCM app": [3453],
+        "B1 ARI app": [3559],
+        "B2 ARI app": [7215]
+      },
+      "3ème année": {
+        "A1 MCM": [4573],
+        "A2 MCM": [4579],
+        "B1 ARI": [5081],
+        "B2 ARI": [5563]
+      }
+    },
+    "BUT HSE-CQSE": {
+      "1ère année": {
+        "TP1.1": [2090],
+        "TP1.2": [2083],
+        "TP2.3": [2069],
+        "TP2.4": [2068],
+        "TP3.5": [2066],
+        "TP3.6": [2052]
+      },
+      "2ème année": {
+        "TP1.1": [1974],
+        "TP1.2": [1973],
+        "TP2.3": [1968],
+        "TP2.4": [1967],
+        "TP1 Apprentissage": [1374],
+        "TP2 Apprentissage": [1962]
+      },
+      "3ème année": {
+        "TP1.1": [1878],
+        "TP1.2": [5940],
+        "TP2.3": [2621],
+        "TP2.4": [6108]
+      }
+    },
+    "BUT MT2E": {
+      "1ère année": {
+        "A1": [2064],
+        "A2": [2037],
+        "B1": [2035],
+        "B2": [2034],
+        "C1": [2031],
+        "C2": [2030]
+      },
+      "2ème année": {
+        "A1": [2186],
+        "A2": [2185],
+        "B1": [2130],
+        "B2": [2108],
+        "C1": [1588],
+        "C2": [3468]
+      },
+      "3ème année": {
+        "A1": [6111],
+        "A2": [6112],
+        "B1": [6121],
+        "B2": [6122],
+        "C1": [6497],
+        "C2": [6285]
+      }
+    },
+    "BUT QLIO": {
+      "1ère année": {
+        "TP1": [2072],
+        "TP2": [2073],
+        "TP3": [1175],
+        "TP4": [2077],
+        "FI SAE PT-A": [2838],
+        "FI SAE PT-B": [4007]
+      },
+      "2ème année": {
+        "TP1": [1201],
+        "TP2": [2099],
+        "TP3": [2191],
+        "TP4": [5540],
+        "MPQ2-TP2 SAE Projet tuteuré": [2095],
+        "ATN": [4005],
+        "MPBS1": [2003],
+        "MPBS2": [4018]
+      },
+      "3ème année": {
+        "TP1": [6557],
+        "TP2": [8078],
+        "TP3": [6566],
+        "TP4": [6569],
+        "TP SAE Projet tuteuré": [6549]
+      },
+      "Encadrements": {
+        "Z1Q-TP4": [1971],
+        "Q2 AS": [1914],
+        "Z AP1": [398],
+        "Z AP2": [84],
+        "Z FC": [1545],
+        "Z FI1-TP6": [2074],
+        "Z FI2-TP6": [2195],
+        "Z LPC": [1721],
+        "Z Pres": [5672]
+      }
+    },
+    "LP CQPA": {
+      "1ère année": {
+        "TP1": [1498],
+        "TP2": [1500]
+      }
+    },
+    "LP GOAA": {
+      "1ère année": {
+        "G1": [5839]
+      }
+    },
+    "LP IMB": {
+      "1ère année": {
+        "A1": [6890],
+        "A2": [197],
+        "B1": [6906],
+        "B2": [6908]
+      }
+    },
+    "LP MICN": {
+      "1ère année": {
+        "TP1": [461],
+        "TP2": [682]
+      }
+    },
+    "LP PTVR": {
+      "1ère année": {
+        "TP1": [2255],
+        "TP2": [7152]
+      }
+    }
+  },
+  "ENSIBS": {
+    "CyberData": {
+      "3ème année": {
+        "TP1": [4426, 5258]
+      },
+      "4ème année": {
+        "TP1": [154, 2187],
+        "TP2": [9982, 9916]
+      },
+      "5ème année": {
+        "TP1": [6371],
+        "M2RI": [4096]
+      }
+    },
+    "CyberLog": {
+      "3ème année": {
+        "TP1": [1026, 5132],
+        "TP2": [9358, 9359]
+      },
+      "4ème année": {
+        "TP1": [1771, 645],
+        "TP2": [9983, 9917]
+      },
+      "5ème année": {
+        "TP1": [9994],
+        "M2RI": [9992]
+      }
+    },
+    "CyberDéfense": {
+      "3ème année": {
+        "TP1": [85, 4770],
+        "TP2": [334, 4838],
+        "TP3": [3733, 5256],
+        "TP4": [3851, 4473],
+        "TP5": [7198, 7204],
+        "TP6": [7200, 7203]
+      },
+      "4ème année": {
+        "TP1": [2860, 4866],
+        "TP2": [4517, 4848],
+        "TP3": [4938, 4820],
+        "TP4": [4948, 4821],
+        "TP5": [6024, 6102],
+        "TP6": [6052, 6125]
+      },
+      "5ème année": {
+        "TP1": [4965],
+        "TP2": [4958],
+        "TP3": [2422],
+        "TP4": [2424],
+        "TP5": [4983],
+        "TP6": [4989]
+      }
+    },
+    "Énergies, Hydrogène": {
+      "3ème année": {
+        "TP1": [469, 2237],
+        "TP2": [620, 2207]
+      },
+      "4ème année": {
+        "TP1": [8945, 8949],
+        "TP2": [8944, 8948]
+      },
+      "5ème année": {
+        "TP1": [9914],
+        "TP2": [9915]
+      }
+    },
+    "Génie Civil": {
+      "3ème année": {
+        "TD1 TPa1": [4620, 5027],
+        "TD1 TPa2": [2457, 2854],
+        "TD1 TPb1": [8433, 9418],
+        "TD2 TPb2": [3721, 5105],
+        "TD2 TPc1": [3718, 9420],
+        "TD2 TPc2": [8489, 723]
+      },
+      "4ème année": {
+        "TD1 TPa1": [2540, 9896],
+        "TD1 TPa2": [2570, 2635],
+        "TD1 TPb1": [9892, 2698],
+        "TD2 TPb2": [8958, 8962],
+        "TD2 TPc1": [9893, 9899],
+        "TD2 TPc2": [8957, 8961]
+      },
+      "5ème année": {
+        "TD1 TPa1": [8029],
+        "TD1 TPa2": [8031],
+        "TD1 TPb1": [9905],
+        "TD2 TPb2": [9908],
+        "TD2 TPc1": [9902],
+        "TD2 TPc2": [9901]
+      }
+    },
+    "Génie Industriel": {
+      "3ème année": {
+        "APP TP1": [5822, 2845],
+        "APP TP2": [9147, 3803],
+        "INI TP1": [5819, 2835]
+      },
+      "4ème année": {
+        "APP TP1": [7210, 7216],
+        "APP TP2": [46, 7214],
+        "APP TP3": [7209, 9918],
+        "INI TP1": [1120, 1938],
+        "INI TP2": [3266]
+      },
+      "5ème année": {
+        "APP ING TP1": [454],
+        "APP ING TP2": [2059],
+        "APP MR TP1": [2459],
+        "APP MR TP2": [2509],
+        "INI ING TP1": [701],
+        "INI ING TP2": [9986],
+        "INI MR TP1": [2558],
+        "INI MR TP2": [2794]
+      }
+    },
+    "Mécatronique": {
+      "3ème année": {
+        "MTA TP1": [4811, 4863],
+        "MTA TP2": [4761, 4952],
+        "MTE TP1": [2060, 2863],
+        "MTE TP2": [2026, 4300]
+      },
+      "4ème année": {
+        "MTA TP1": [1983, 2341],
+        "MTA TP2": [1987, 2344],
+        "MTE TP1": [1139, 1139],
+        "MTE TP2": [2043, 2046]
+      },
+      "5ème année": {
+        "MTA TP1": [8034, 9910],
+        "MTA TP2": [8035, 7792],
+        "MTE TP1": [10002, 9999]
+      }
+    },
+    "PEI": {
+      "1ère année": {
+        "Lorient PEI-D TP1": [2504, 2548],
+        "Lorient PEI-D TP2": [8106],
+        "GR 1A1": [3543],
+        "SSI PEI-1 71": [4039, 6629],
+        "SSI PEI-1 72a": [333],
+        "SSI PEI-1 72b": [19067],
+        "SSI PEI-1 73": [1578,5502],
+        "SSI PEI-1 72": [6619],
+        "SSI PEI-1 74": [5340]
+      },
+      "2ème année": {
+        "Vannes PEI-A TP1": [8951, 8685],
+        "Vannes PEI-A": [8670,7519],
+        "Lorient PEI-D TP1": [3182, 3627],
+        "SSI PEI-2 71": [1745, 7420],
+        "SSI PEI-2 72": [1985,9428],
+        "SSI PEI-2 73": [2045],
+        "PEI 1/3 temps": [9384],
+        "UE PEI CM": [2764],
+        "UE PEI TP1": [2774],
+        "UE PEI TP2": [7559],
+        "UE PEI TP3": [2258]
+      },
+      "UE optionnelles PEI1" : {
+        "Intro GI-GC-EH PEI1 CM-TP": [640],
+        "Intro ENT PEI1 CM": [2895],
+        "Intro ENT PEI1 TP1": [3011],
+        "Intro ENT PEI1 TP2": [3020],
+        "Intro ENT PEI1 TP3": [3739],
+        "Intro ENT PEI1 TP4": [1921],
+        "Complément électricité CM/TP": [7532],
+        "Préparation entretien alternance CM/TP": [8118],
+        "TOEIC blanc CM/TD": [8115]
+      }
+    }
+  },
+  "Fac DSEG": {
+    "AO": {
+      "Toutes années": {
+        "AO Allemand G1": [3499],
+        "AO Allemand G2": [4740],
+        "AO Cinéma DSEG Vannes": [8441],
+        "AO Communication et entretiens professionnels": [4536],
+        "AO Construire et communiquer sur son projet professionnel": [4902],
+        "AO Cordées de la réussite": [7875],
+        "AO Culture Entrepreneur": [8477],
+        "AO Cyber-sécurité": [2925],
+        "AO Développement durable/Problématique environnementale": [7855],
+        "AO Eloquence": [2843],
+        "AO En quête d'archives": [2942],
+        "AO Engagement associatif et bénévole - Ligue de l'enseignement IAE": [3539],
+        "AO Enjeux contemporains de l'action publique européenne": [874],
+        "AO Entreprends-toi": [8473],
+        "AO Espagnol DSP": [6487],
+        "AO Espagnol IAE": [6275],
+        "AO Gestion de Projets": [4862],
+        "AO Gravure DSEG Vannes": [6326],
+        "AO Histoire de l'architecture": [6288],
+        "AO Histoire de l'art - E Le Franc": [4223],
+        "AO Histoire de l'art au 19è siècle": [7935],
+        "AO Histoire de la photographie": [6323],
+        "AO Histoire idée européenne 1 - R Bareau": [4238],
+        "AO Histoire idée européenne 2-les progrès": [4237],
+        "AO Initiation au no code": [5771],
+        "AO Initiation à la gestion comptable et financière": [6562],
+        "AO Intro psychologie sociale - N Guéguen": [4229],
+        "AO Intro. histoire de l'architecture - M Ramonnet": [4224],
+        "AO Outils Informatiques": [3503],
+        "AO Photo DSEG Vannes": [8804],
+        "AO Problématiques environnementales (Economie circulaire)": [3481],
+        "AO Projet européen": [9562],
+        "AO Préparation concours": [3645],
+        "AO Société Numérique": [4319],
+        "AO Street-Art DSEG Vannes": [8805],
+        "AO TEDS  L2 Eco Gestion G1": [8172],
+        "AO TEDS  L2 Eco Gestion G2": [8221],
+        "AO TEDS  L2 Eco Gestion GROUPE A": [9505],
+        "AO TEDS  L2 Eco Gestion GROUPE B": [9506],
+        "AO TEDS  L2 Eco Gestion GROUPE C": [9507],
+        "AO TEDS  L2 Eco Gestion GROUPE D": [9508],
+        "AO Théatre DSEG Vannes": [8446],
+        "AO culture entrepreneur S Gravouil": [5423],
+        "AO hist. politique et sociale contemporaine - F Ars": [4220],
+        "AO philosophie 1 - D Gouzien": [4230],
+        "AO philosophie 2 - D Gouzien": [3827],
+        "AO préparation concours": [4256],
+        "AO Étudiants ambassadeurs": [8461],
+        "examen AO Allemand": [7031],
+        "examen AO Espagnol": [7001],
+        "examen AO Histoire de l'idée européenne 1": [7015],
+        "examen AO Histoire politique et sociale": [7002],
+        "examen AO Problématique environnementale": [6994],
+        "examen AO outils informatiques": [7023]
+      }
+    },
+    "Licence Droit": {
+      "L1": {
+        "AUDIOVISUEL": [6886],
+        "CYBER SECURITE": [6883],
+        "G1": [4367],
+        "G2": [4365],
+        "G3": [4363],
+        "G4": [6849],
+        "G5": [4353],
+        "G6": [4347],
+        "G7": [4344],
+        "G8": [4342],
+        "G9": [4339],
+        "G10": [3716],
+        "G11": [188],
+        "G12": [7872],
+        "Langues AG1": [4833],
+        "Langues AG10": [5922],
+        "Langues AG11": [195],
+        "Langues AG12": [201],
+        "Langues AG2": [4832],
+        "Langues AG3": [4831],
+        "Langues AG4": [4830],
+        "Langues AG5": [4829],
+        "Langues AG6": [4828],
+        "Langues AG7": [4827],
+        "Langues AG8": [4826],
+        "Langues AG9": [4825],
+        "gpe espagnol": [2515],
+        "GRAVURE": [6884],
+        "GROUPE Hist. phé. Pol. Eco": [5401],
+        "Groupe A": [2253],
+        "Groupe B": [2432],
+        "Histoire de l'architecture": [1788],
+        "Histoire de l'art": [5318],
+        "Histoire de l'art au 19e siècle": [7936],
+        "Histoire politique sociale et contemporaine": [5864],
+        "IGCF": [6624],
+        "IPS L1 Droit": [2665],
+        "Introduction à l'histoire de la photographie": [4276],
+        "L1 D G4 (20)": [4361],
+        "L1 LAS": [2363],
+        "LICENCE + 1": [6850],
+        "LICENCE + 2": [6855],
+        "LICENCE + 3": [6860],
+        "LICENCE + 4": [6867],
+        "PARCOURS OUI SI": [6904],
+        "PRATIQUE MUSICALE": [6885],
+        "SPORT DE HAUT NIVEAU": [6869],
+        "STREET ART": [6873],
+        "Evt UBS": [1257],
+        "VOIX ET CHANT": [6887]
+      },
+      "L1 Droit Science Politique": {
+        "L1 DROIT SC PO": [6145]
+      },
+      "L1 Accès Santé": {
+        "G1": [5137],
+        "G2": [5143],
+        "G3": [5149],
+        "G4": [5153],
+        "G5": [5165],
+        "G6": [5185],
+        "G7": [5189],
+        "G8": [5190],
+        "G9": [5191],
+        "G10": [5195],
+        "G11": [5211],
+        "Histoire politique et sociale contemporaine": [5426],
+        "LICENCE+ 1": [5217],
+        "LICENCE+ 2": [5231],
+        "LICENCE+ 3": [5236],
+        "LICENCE+ 4": [5254],
+        "Langues AG1": [5305],
+        "Langues AG10": [5416],
+        "Langues AG11": [5422],
+        "Langues AG12": [5425],
+        "Langues AG2": [5358],
+        "Langues AG3": [5359],
+        "Langues AG4": [5373],
+        "Langues AG5": [5390],
+        "Langues AG6": [5399],
+        "Langues AG7": [5400],
+        "Langues AG8": [5408],
+        "Langues AG9": [5414],
+        "Evt UBS": [7168],
+        "L1 LAS": [4038],
+        "L1 LAS groupe": [7143]
+      },
+      "L2": {
+        "G1": [4490],
+        "G2": [4489],
+        "G3": [4488],
+        "G4": [4487],
+        "G5": [4772],
+        "G6": [771],
+        "G7": [5036],
+        "G8": [5967],
+        "L2D": [632],
+        "Langues AAR L2": [4279],
+        "Langues ADA L2D": [7929],
+        "Langues ALL L2D": [4480],
+        "Langues ANG1": [2499],
+        "Langues ANG2": [4482],
+        "Langues ANG3": [4483],
+        "Langues ANG4": [4485],
+        "Langues ANG5": [4583],
+        "Langues ANG6": [1177],
+        "Langues ESP1": [4481],
+        "Langues ESP2": [4240],
+        "Langues Groupe espagnol": [6947],
+        "Langues HDA L2D": [5015],
+        "Langues HDO L2D": [5204],
+        "Langues HIE L2D": [4738],
+        "Langues IGCF L2D": [5010],
+        "Langues IPS L2D": [2661],
+        "Evt UBS": [7172]
+      },
+      "L3": {
+        "ADA L3D": [7109],
+        "Evt UBS": [7189],
+        "GF L3": [2922],
+        "Groupe 1": [7043],
+        "Groupe 2": [7045],
+        "Groupe 3": [7048],
+        "Groupe 4": [7053],
+        "Profil mixte - Groupe 1": [1503],
+        "Profil mixte - Groupe 1a": [8682],
+        "Profil mixte - Groupe 2": [5704],
+        "Profil mixte - Groupe 2a": [8683],
+        "Profil mixte - Groupe 3": [8684],
+        "Profil privatiste": [3546],
+        "Profil privatiste - Groupe 1": [2599],
+        "Profil privatiste - Groupe 2": [2718],
+        "Profil privatiste - Groupe 3": [5128],
+        "Profil publiciste - Groupe 1": [5966],
+        "Profil publiciste - Groupe 2": [1841],
+        "Préparation concours": [6123],
+        "Langues Tiers temps 1": [615],
+        "Langues AAR L3": [4280],
+        "Langues ALL L3D": [4459],
+        "Langues ANG1": [4467],
+        "Langues ANG2": [4465],
+        "Langues ANG3": [4463],
+        "Langues ANG4": [4399],
+        "Langues ANG5": [5061],
+        "Langues ANG6": [5917],
+        "Langues ESP1": [4461],
+        "Langues ESP2": [4570],
+        "AO": [6045],
+        "HDA L3": [6587],
+        "HIE L3": [6598],
+        "PHILO L3": [3819],
+        "PREPARATION CONCOURS": [2051]
+      }
+    },
+    "CPGE": {
+      "1ère année": {
+        "1/3 Tps": [4457],
+        "AG 1 CPGE 1": [7268],
+        "ALL CPGE1": [4073],
+        "ESP": [4780],
+        "G1 CPGE 1": [7269],
+        "G2 CPGE 1": [7270]
+      },
+      "2ème année": {
+        "1/3 Tps CPGE2": [716],
+        "AG1 CPGE2": [4286],
+        "ALL3 CPGE2": [6324],
+        "COLLE 2 CPGE 2": [9168],
+        "COLLE CPGE 2": [3288],
+        "ESP CPGE": [3287]
+      }
+    },
+    "Licence Eco Gestion": {
+      "L1": {
+        "A": [7271],
+        "B": [4603],
+        "C": [7275],
+        "D": [2325],
+        "E": [7272],
+        "F": [1538],
+        "G": [5026],
+        "H": [5062],
+        "I": [3847],
+        "J": [4221],
+        "K": [6179],
+        "L": [4900],
+        "M": [4916],
+        "N": [4909],
+        "O": [371],
+        "P OUI-SI": [2823],
+        "Q OUI-SI": [2824],
+        "R OUI-SI": [2832],
+        "S OUI-SI": [4055],
+        "U": [1463],
+        "V": [1512],
+        "W": [7273],
+        "X": [7274],
+        "Y": [382],
+        "Z": [4436],
+        "Langues 1/3 Tps": [4298],
+        "Langues AG1": [4430],
+        "Langues AG2": [4428],
+        "Langues AG3": [4427],
+        "Langues AG4": [4425],
+        "Langues AG5": [4423],
+        "Langues AG6": [4422],
+        "Langues AG7": [4420],
+        "Langues AG8": [4418],
+        "Langues ALL 1": [4414],
+        "Langues ALL 2": [6595],
+        "Langues ALL3": [6319],
+        "Langues ESP1": [4410],
+        "Langues ESP2": [4412],
+        "Langues ESP3": [2875]
+      },
+      "L2": {
+        "A": [4373],
+        "B": [4372],
+        "C": [4337],
+        "D": [3734],
+        "E": [4429],
+        "F": [1487],
+        "G": [5180],
+        "H": [437],
+        "I": [703],
+        "J": [7828],
+        "K": [7829],
+        "L": [7824],
+        "M": [7825],
+        "N": [7826],
+        "O": [7827],
+        "P": [2135],
+        "V": [5987],
+        "W": [4306],
+        "X": [5496],
+        "Y": [5323],
+        "Z": [6521],
+        "Langues AG1": [4369],
+        "Langues AG2": [4368],
+        "Langues AG3": [4366],
+        "Langues AG4": [745],
+        "Langues AG5": [7819],
+        "Langues AG6": [4687],
+        "Langues ALL 1": [4448],
+        "Langues ESP1": [1482],
+        "Oraux Statistiques A": [9578],
+        "Oraux Statistiques B": [9579],
+        "1/3 Tps": [2705],
+        "A0G1": [13974],
+        "A0G2": [13975],
+        "A0G3": [13976],
+        "A0G4": [13977]
+      },
+      "L3 Comptabilité-Finance": {
+        "A": [2768],
+        "B": [3779],
+        "C": [553],
+        "A2": [2858],
+        "B2": [2862],
+        "ALL L3CF": [1368],
+        "ESP CF": [5974],
+        "AO CCPP CF": [4797],
+        "AO ETP CF": [8534],
+        "AO HIE CF": [1907],
+        "AO SN CF": [8504],
+        "Stage": [9318],
+        "Stage bis": [9883]
+      },
+      "L3 EGO": {
+        "1/3 Tps": [4343],
+        "A": [4312],
+        "B": [4173],
+        "C": [3786],
+        "D": [9242],
+        "E": [9439],
+        "F": [9561],
+        "ECOM 1": [979],
+        "ECOM 2": [1152],
+        "EGO GPA": [185],
+        "EGO MBF": [170],
+        "EGO DHP": [8226],
+        "EGO ETE": [5070],
+        "Langues AG1": [4317],
+        "Langues AG2": [4388],
+        "Langues AG3": [889],
+        "Langues AG4": [6136],
+        "Langues AG5": [7802],
+        "Langues ALL": [4316],
+        "Langues DU": [335],
+        "Langues ESP1": [4315],
+        "Langues ESP2": [7803]
+      },
+      "L3 Economie Appliquée": {
+        "1/3 tps": [6322],
+        "DPI EA 1": [5449],
+        "DPI EA 2": [7632],
+        "DPI EA 3": [1242],
+        "EA ETE 1": [481],
+        "EA ETE 2": [4885],
+        "EA GPA": [5477],
+        "EA HEG": [470],
+        "EDT": [7410],
+        "ES": [9437],
+        "G HEG": [9438],
+        "Langues AG1": [4387],
+        "Langues AG2": [4393],
+        "Langues AG3": [4394],
+        "Langues AG4": [1237],
+        "Langues ALL": [4903],
+        "ESP1": [4876]
+      },
+      "L3 Marketing-Vente": {
+        "A": [51],
+        "A2": [73],
+        "B": [210],
+        "B2": [166],
+        "AO CCPP MV": [8491],
+        "AO DD MV": [7848],
+        "AO HIE MV": [4479],
+        "AO SN MV": [8492],
+        "ALL L3MV": [1100],
+        "ESP MV": [1009],
+        "ESP2 MV": [6958],
+        "groupe projet tuteuré 1": [1803],
+        "groupe projet tuteuré 2": [9533],
+        "groupe projet tuteuré 3": [9534],
+        "groupe projet tuteuré 4": [9535],
+        "groupe projet tuteuré 5": [9536],
+        "groupe projet tuteuré 6": [9537],
+        "groupe projet tuteuré 7": [9538],
+        "groupe projet tuteuré 8": [9539],
+        "groupe projet tuteuré 9": [9540],
+        "réunion ERASMUS": [2252]
+      }
+    },
+    "LP JURIDIQUES-Droit privé": {
+      "1ère année": {
+        "G1": [847]
+      }
+    },
+    "LP Banque": {
+      "1ère année": {
+        "G1": [9362]
+      }
+    },
+    "LP Metiers de la GRH": {
+      "1ère année": {
+        "G1": [6667],
+        "G2": [182]
+      }
+    },
+    "Master CCA - CGAO": {
+      "M1": {
+        "G1 CCA": [4808],
+        "G1 CGAO": [3691],
+        "G2 CCA": [4546],
+        "G2 CGAO": [3643],
+        "GA CGAO": [307],
+        "GB CGAO": [308],
+        "GC CGAO": [676],
+        "GrA CCA": [4795],
+        "GrB CCA": [4804],
+        "GrC CCA": [4869]
+      },
+      "M2 CCA": {
+        "G1 CCA": [4594],
+        "G2 CCA": [613],
+        "Anglais CCA": [2123],
+        "Anglais CCA-CGAO": [2415]
+      },
+      "M2 CGAO": {
+        "Grpe 1 CGAO": [4599],
+        "Grpe 2 CGAO": [4567],
+        "Grpe A CGAO": [4568],
+        "Grpe CGAO": [1214],
+        "Anglais CGAO": [3602],
+        "Anglais CGAO-CCA": [3603]
+      }
+    },
+    "Master Droit": {
+      "M1 Droit privé - PCCA": {
+        "Evt UBS": [7191],
+        "G1 DROIT PRIVE": [6063]
+      },
+      "M1 Droit public - JCAP": {
+        "G1 PUBLIC": [4345],
+        "Evt UBS": [5264]
+      },
+      "M2 Droit privé - PCCA": {
+        "G1 PRIVE": [1651],
+        "G2 PRIVE": [5145],
+        "Evt UBS": [7192]
+      },
+      "M2 Droit public - JCAP": {
+        "G1 PUBLIC": [1648],
+        "G2 PUBLIC": [2730]
+      }
+    },
+    "Master GRH": {
+      "M1": {
+        "G1": [1566]
+      },
+      "M2": {
+        "G1": [6668],
+        "G2": [1575],
+        "G3": [594]
+      }
+    },
+    "Master MAE": {
+      "M2": {
+        "G1": [5779]
+      }
+    },
+    "Master Marketing-vente": {
+      "M1": {
+        "Examen all": [8287],
+        "G1 Parcours Marketing Digital": [6651],
+        "G1 Responsable Marketing et Businesse Developper": [4324]
+      },
+      "M2": {
+        "MD": [6657],
+        "RMBD": [1148]
+      }
+    },
+    "Master BAFD (CPFA)": {
+      "M1": {
+        "Gr1": [6661],
+        "Gr2": [1442]
+      },
+      "M2": {
+        "Gr A": [8638],
+        "Gr B": [8639],
+        "M2 CPFA": [6623]
+      }
+    },
+    "Master CPA": {
+      "M1": {
+        "GR1": [6662]
+      },
+      "M2": {
+        "GR1": [5372]
+      }
+    },
+    "DU AT": {
+      "1ère année": {
+        "1/3 Tps DU AT": [1469],
+        "DU AT Gr1": [6759]
+      }
+    },
+    "DU IPCE": {
+      "1ère année": {
+        "G1 DU GP": [4036]
+      }
+    }
+  },
+  "Fac LLSHS": {
+    "AO": {
+      "Toutes années": {
+        "Ecriture créative en partenariat avec le centre pénitentiaire": [9226],
+        "Histoire de l'Art": [1688],
+        "Héritages antiques": [14735],
+        "Initiation au FLE": [14743],
+        "Introduction à l'archéologie : Histoire, méthodes et techniques": [14742],
+        "Langues des signes G1 (LSF)": [14744],
+        "Langues des signes G2 (LSF)": [14755],
+        "Pratique du théâtre": [14740],
+        "Tabac, alcool, sexe, drogues : physiologie et prévention": [14745],
+        "Écriture créative G1": [14737],
+        "Écriture créative G2": [14738],
+        "Accompagnement à la scolarité L1": [94],
+        "Accompagnement à la scolarité L3": [474],
+        "Atelier créatif d'impression d'images": [1559],
+        "Cinéma": [14741],
+        "Design, Scupture et Impression 3D": [1603],
+        "Engagement associatif et bénévole": [999],
+        "Engagement citoyen": [1252],
+        "Gravure et estampes": [14748],
+        "Impression d'images": [9369],
+        "Photographie": [14749],
+        "Pratique musicale": [14750],
+        "Radio": [14751],
+        "Théâtre et improvisation": [14752],
+        "Voix et chant": [14753],
+        "Élu étudiant": [891],
+        "Cordée de la Réussite": [14754],
+        "Culture entrepreneur": [14747],
+        "Entreprends-toi": [14746],
+        "Entrepreneuriat : Fabrik ta pépite": [1533],
+        "Étudiant ambassadeur": [1360],
+        "Communication gagnante : les atouts de la réussite": [14739],
+        "Découverte de la biodiversité": [813],
+        "Français sur Objectif universitaire": [1644],
+        "ASTEP": [1490]
+      }
+    },
+    "Langues": {
+      "Toutes années Allemand": {
+        "Allemand N 01": [824],
+        "Allemand N 02": [368],
+        "Allemand N 03": [1083],
+        "Allemand N 11": [369],
+        "Allemand N 12": [370],
+        "Allemand N 13": [375]
+      },
+      "Toutes années Anglais": {
+        "Anglais 11 GRP 1": [429],
+        "Anglais 11 GRP 2": [432],
+        "Anglais 11 GRP 3": [433],
+        "Anglais 11 GRP 4": [1423],
+        "Anglais 11 GRP 5": [4979],
+        "Anglais 12 GRP 1": [405],
+        "Anglais 12 GRP 2": [406],
+        "Anglais 12 GRP 3": [3810],
+        "Anglais 13 GRP 1": [850],
+        "Anglais 13 GRP 2": [851],
+        "Anglais 13 GRP 3": [8279]
+      },
+      "Toutes années Breton": {
+        "Breton N 01": [327],
+        "Breton N 02": [328],
+        "Breton N 03": [329],
+        "Breton N 11": [4707],
+        "Breton N 12": [5096],
+        "Breton N 13": [5099]
+      },
+      "Toutes années Catalan": {
+        "Catalan N 01": [574],
+        "Catalan N 02/03": [728]
+      },
+      "Toutes années Chinois": {
+        "Chinois N 01": [326],
+        "Chinois N 02": [374],
+        "Chinois N 03": [441],
+        "Chinois N 11": [377],
+        "Chinois N 12": [2877],
+        "Chinois N 13": [5201]
+      },
+      "Toutes années Espagnol": {
+        "Espagnol N 01": [759],
+        "Espagnol N 02": [349],
+        "Espagnol N 03": [507],
+        "Espagnol N 11 Grp1": [311],
+        "Espagnol N 11 Grp2": [314],
+        "Espagnol N 12": [315],
+        "Espagnol N 13": [4666]
+      },
+      "Toutes années Italien": {
+        "Italien 01 GRP 1": [331],
+        "Italien 01 GRP 2": [332],
+        "Italien 01 GRP 3": [7695],
+        "Italien 01 GRP 4": [1020],
+        "Italien 02 Grp 1": [5242],
+        "Italien 02 Grp 2": [362],
+        "Italien 03 Grp 1": [363],
+        "Italien 03 Grp 2": [3974],
+        "Italien 11": [770],
+        "Italien 12": [364],
+        "Italien 13": [4671]
+      },
+      "Toutes années Portugais": {
+        "Portugais N 01 GRP 1": [853],
+        "Portugais N 01 GRP 2": [854],
+        "Portugais N 02": [319],
+        "Portugais N 03": [321]
+      },
+      "Toutes années Russe": {
+        "Russe N01": [4673],
+        "Russe N02/03": [4680]
+      }
+    },
+    "CPGE LEA": {
+      "1ère anée": {
+        "Germaniste": [1462],
+        "Esp1": [2502],
+        "Esp2": [1481],
+        "Soutien": [1128]
+      },
+      "2ème année": {
+        "ALL cpge": [1361],
+        "ESP cpge": [1319]
+      }
+    },
+    "DAEU": {
+      "Toutes années": {
+        "DAEU A Lorient": [1146],
+        "DAEU B Lorient": [1147],
+        "DAEU A Vannes": [6771]
+      }
+    },
+    "Etudiants LAS": {
+      "Toutes années": {
+        "Etudiants LAS": [9399]
+      }
+    },
+    "Licence ASS": {
+      "L1": {
+        "Gr1-1": [1159],
+        "Gr1-2": [27],
+        "Gr1-3": [144],
+        "Gr1-4": [4877],
+        "Gr1-5": [6198],
+        "Gr2-1": [1160],
+        "Gr2-2": [1301],
+        "Gr2-3": [1551],
+        "Gr2-4": [4904],
+        "Gr2-5": [6200],
+        "Gr3-1": [5994],
+        "Gr3-2": [6488],
+        "Gr3-3": [6685],
+        "Gr3-4": [9331],
+        "Gr3-5": [9332],
+        "RD Gr1": [9222],
+        "RD Gr2": [9223],
+        "RD Gr3": [9224],
+        "RD Gr4": [9225],
+        "Environnement et projet \"Oui si 2\" 1ère année": [8413],
+        "Renforcement Compta gestion 2ème année": [3564],
+        "Renforcement Compta-gestion 1ère année": [1822],
+        "Renforcement Droit 1ère année": [8082],
+        "Renforcement Droit 2ème année": [8087],
+        "Renforcement Français 1ère année": [4522],
+        "Renforcement Français 2ème année": [4678],
+        "Renforcement anglais \"Oui si\"": [8708],
+        "Renforcement bureautique": [5535],
+        "Renforcement économie": [7979],
+        "Renforcement économie 2ème année": [7995]
+      },
+      "L2": {
+        "Gr 1.1": [8258],
+        "Gr 1.2": [6129],
+        "Gr 1.3": [6778],
+        "Gr 2.1": [8259],
+        "Gr 2.2": [7683],
+        "Gr 2.3": [7801]
+      },
+      "L3": {
+        "gr A1": [2263],
+        "gr A2": [2267],
+        "gr A3": [2268],
+        "gr A4": [2552],
+        "gr A5": [8634],
+        "gr A6": [8633],
+        "gr B1": [2269],
+        "gr B2": [2270],
+        "gr B3": [2271],
+        "gr B4": [2793],
+        "gr B5": [8635],
+        "gr B6": [8636],
+        "Parcours psycho": [1066],
+        "Parcours socio GR1": [1847],
+        "Parcours socio GR2": [1281]
+      }
+    },
+    "Licence Histoire": {
+      "L1": {
+        "Env. gr1": [1411],
+        "Env. gr2": [1656],
+        "Env. gr3": [3609],
+        "Env. gr4": [4630],
+        "OUI SI": [6485],
+        "MTU BU1": [8615],
+        "MTU BU2": [8669],
+        "MTU BU3": [8696],
+        "MTU BU4": [8704],
+        "MTU BU5": [8769],
+        "MTU BU6": [8770],
+        "MTU BU7": [8780],
+        "MTU BU8": [8854],
+        "MTU BU9": [8855],
+        "MTU UE5 BU1": [9344],
+        "MTU UE5 BU2": [9345],
+        "MTU UE5 BU3": [9346],
+        "MTU UE5 BU4": [9347],
+        "MTU UE5 BU5": [9348],
+        "MTU UE5 BU6": [9349],
+        "MTU UE5 BU7": [9350],
+        "MTU UE5 BU8": [9351],
+        "MTU UE5 BU9": [9352],
+        "MTU UE5 BU10": [9353],
+        "MTU UE5 MTU1": [9340],
+        "MTU UE5 MTU2": [9341],
+        "MTU UE5 MTU3": [9342],
+        "MTU UE5 MTU4": [9343],
+        "MTU UE5 MTU5": [9162],
+        "Institutions politiques gr1": [751],
+        "Institutions politiques gr2": [557],
+        "Institutions politiques gr3": [752],
+        "Institutions politiques gr4": [4743],
+        "Institutions politiques gr5": [2753],
+        "Institutions politiques gr6": [2759]
+      },
+      "L2": {
+        "Environnement gr1": [1396],
+        "Environnement gr2": [1409],
+        "administration gr1": [1394],
+        "administration gr2": [1363]
+      },
+      "L3": {
+        "Environnement  gr1": [1655],
+        "Environnement  gr2": [2535],
+        "administration gr1": [1510],
+        "administration gr2": [1513]
+      }
+    },
+    "Licence Histoire-Géographie": {
+      "L1": {
+        "OUI SI": [6486],
+        "TD Gr1": [8868],
+        "TD Gr2": [19059],
+        "BU 1": [9107],
+        "BU 2": [9111],
+        "BU 3": [18753]
+      },
+      "L2": {
+        "Histoire - Géographie": [8870],
+        "Histoire - Géographie gpe1": [8235],
+        "Histoire - Géographie gpe2": [8237]
+      },
+      "L3 Histoire-Géographie": {
+        "Histoire - Géographie": [4886],
+        "Histoire - Géographie gpe1": [6784],
+        "Histoire - Géographie gpe2": [6764]
+      }
+    },
+    "Licence LEA": {
+      "L1": {
+        "all gr1": [298],
+        "all gr2": [299],
+        "esp gr1-1": [300],
+        "esp gr1-2": [301],
+        "esp gr2-1": [302],
+        "esp gr2-2": [303],
+        "esp gr3-1": [305],
+        "esp gr3-2": [306],
+        "esp gr3-3": [465],
+        "esp gr4-1": [357],
+        "esp gr4-2": [1205],
+        "esp gr4-3": [359],
+        "OUI SI anglais 1": [9366],
+        "OUI SI anglais 2": [9367],
+        "OUI SI espagnol": [3002],
+        "Soutien": [1128]
+      },
+      "L2": {
+        "Germaniste": [336],
+        "Germanistes 1": [443],
+        "Germanistes 2": [782],
+        "ESP 1": [127],
+        "ESP 2": [600],
+        "ESP 3": [1489],
+        "ESP 4": [6951]
+      },
+      "L3": {
+        "Esp1": [444],
+        "Esp2": [2873]
+      }
+    },
+    "Licence LLCER-Anglais": {
+      "L1": {
+        "1-1": [3021],
+        "1-2": [3717],
+        "1-3": [3809],
+        "1-4": [3831],
+        "1-5": [3856],
+        "1-6": [3858],
+        "1-7": [3859],
+        "1-8": [3863],
+        "1-9": [3888],
+        "1-10": [4004],
+        "1-11": [4008],
+        "1-12": [4029],
+        "1-13": [4061],
+        "1-14": [4064],
+        "1-15": [4065],
+        "1-16": [4071],
+        "1-17": [4110],
+        "1-18": [4131],
+        "LLCER A Licence +": [4172]
+      },
+      "L2": {
+        "2-1": [779],
+        "2-2": [872],
+        "2-3": [974],
+        "2-4": [986],
+        "2-5": [989],
+        "2-6": [1063],
+        "2-7": [1197],
+        "2-8": [1590],
+        "2-9": [1929],
+        "2-10": [4981]
+      },
+      "L3": {
+        "3-1": [1289],
+        "3-2": [1295],
+        "3-3": [1324],
+        "3-4": [1327],
+        "3-5": [1345],
+        "3-6": [1379],
+        "3-7": [1382],
+        "3-8": [1395],
+        "3-9": [1405],
+        "3-10": [804]
+      }
+    },
+    "Licence LLCER-Espagnol": {
+      "L1": {
+        "TD 1": [6446],
+        "TD 2": [7589],
+        "OUI SI": [1167]
+      },
+      "L2": {
+        "Gr 1": [6590]
+      },
+      "L3": {
+        "Gr 1": [6599]
+      }
+    },
+    "Licence Lettres": {
+      "L1": {
+        "L1 LM MTU 1": [8276],
+        "L1 LM MTU 2": [8277],
+        "L1 Lettres Modernes": [473]
+      },
+      "L2": {
+        "L2 Lettres Modernes": [4149]
+      },
+      "L3": {
+        "L3 Lettres modernes": [4124]
+      }
+    },
+    "LP MCI": {
+      "1ère année": {
+        "Germanistes": [648],
+        "Hispanistes": [653]
+      }
+    },
+    "LP Accompagnement du handicap": {
+      "1ère année": {
+        "LP Handicap": [424]
+      }
+    },
+    "Double licence Lettres Espagnol": {
+      "L1": {
+        "Groupe 1": [5227]
+      },
+      "L2": {
+        "Groupe 1": [6628]
+      },
+      "L3": {
+        "Groupe 1": [8178]
+      }
+    },
+    "UE5": {
+      "L1": {
+        "Approches professionnelles TD1": [6531],
+        "Approches professionnelles TD2": [9541],
+        "Français - Gestion de projet et  CI TD1": [7680],
+        "Français - Gestion de projet et  CI TD2": [7702],
+        "Rédaction en allemand": [7758],
+        "Rédaction en anglais TD1": [7721],
+        "Rédaction en anglais TD2": [7722],
+        "Rédaction en espagnol TD1": [7719],
+        "Rédaction en espagnol TD2": [7720],
+        "Métiers de l'écrit": [6656],
+        "Métiers de la culture": [8240],
+        "Option FLE": [6532],
+        "PE Découverte des métiers de l'éducation": [6692],
+        "PE Français TD1": [6464],
+        "PE Français TD2": [6465],
+        "PE Maths TD1": [6405],
+        "PE Maths TD2": [6453],
+        "PLC Découverte des métiers de l'éducation": [6695],
+        "Analyse des médias TD1": [6515],
+        "Analyse des médias TD2": [6516],
+        "Analyse des médias TD3": [7132],
+        "Sciences humaines et sociales": [6390],
+        "Sciences politiques": [6739]
+      },
+      "L2": {
+        "APSSS Gr1": [4731],
+        "APSSS Gr2": [1639],
+        "Commerce international": [1702],
+        "Commerce international Allemand": [8067],
+        "Commerce international Espagnol 1": [8065],
+        "Commerce international Espagnol 2": [8066],
+        "Métiers des arts et de la culture": [3800],
+        "Gestion de projets européens Allemand": [8102],
+        "Gestion de projets européens Espagnol": [8101],
+        "Métiers de l'écrit": [4160],
+        "PE L2": [4201],
+        "PLC Disciplinaire : Espagnol": [9071],
+        "PLC Disciplinaire : Lettres": [9023],
+        "PLC Disciplinaire : anglais": [8777],
+        "PLC Disciplinaire : histoire-géographie": [8778],
+        "PLC": [1340],
+        "Sciences humaines et sociales": [4242],
+        "Sciences politiques": [7968],
+        "Sciences politiques LEA": [8241],
+        "Sciences Politiques gr 1 anglais": [9503],
+        "Sciences Politiques gr 2 anglais": [9500]
+      },
+      "L3": {
+        "APS Gr1": [1504],
+        "APS Gr2": [17281],
+        "Commerce international allemand": [2105],
+        "Commerce international espagnol": [2249],
+        "Commerce international": [1838],
+        "Gestion de projets européens allemand": [2410],
+        "Gestion de projets européens espagnol": [3446],
+        "Métiers de l'écrit": [6568],
+        "Métiers des arts et de la culture Gr1": [17459],
+        "Métiers des arts et de la culture Gr2": [17462],
+        "PLC - Disciplinaire : Espagnol": [9048],
+        "PLC - Disciplinaire : Lettres": [9051],
+        "PLC - Disciplinaire : anglais": [9070],
+        "PLC - Disciplinaire : histoire": [9054],
+        "PLC": [9090],
+        "PE FLE": [8970],
+        "PE QSV": [8980],
+        "Psychologie": [5923],
+        "Sciences humaines et sociales": [5241],
+        "Sciences politiques": [4939],
+        "Sciences Politiques Anglais Gr1": [9509],
+        "Sciences Politiques Anglais Gr2": [9510]
+      }
+    },
+    "UE4 Diversification Master": {
+      "Master": {
+        "Anglais scientifique": [17659],
+        "Didactique des langues": [7125],
+        "Droit de la fonction publique": [7555],
+        "Exploitation des sources": [9191],
+        "Méthodologie en sociologie": [6479],
+        "Prépa concours Culture générale": [6774],
+        "Prépa concours FP": [9155],
+        "Prépa concours Note de synthèse": [4889],
+        "RSOT": [3838]
+      }
+    },
+    "Master AUTELI": {
+      "M1 AUTELI": {
+        "TD Gr A": [975],
+        "TD Gr B": [976]
+      },
+      "M2 AUTELI": {
+        "TD Gr A": [977],
+        "TD Gr B": [978]
+      }
+    },
+    "Master Histoire": {
+      "M1": {
+        "Gr 1 Parcours administration": [1116],
+        "Gr 2 Parcours enseignement": [1933],
+        "Gr 3 Parcours Patrimoine": [7166]
+      },
+      "M2": {
+        "Gr 1 parcours administration": [1117],
+        "Gr 2 parcours enseignement": [1934],
+        "Gr 3 parcours Guide conférencier": [9022]
+      }
+    },
+    "Master IDS": {
+      "M1": {
+        "TD Gr A": [987],
+        "TD Gr B": [988]
+      },
+      "M2": {
+        "M2 AISS": [3372],
+        "M2 CISS": [260]
+      }
+    },
+    "Master LEA RDI": {
+      "M1": {
+        "Germanistes": [674],
+        "Hispanistes": [673]
+      },
+      "M2": {
+        "Germanistes": [387],
+        "Hispanistes": [388]
+      }
+    },
+    "Master LEA GPRE": {
+      "M1": {
+        "Germanistes": [1035],
+        "Tchèques": [8641]
+      },
+      "M2": {
+        "Germanistes": [1235],
+        "Hispanistes": [1233]
+      }
+    },
+    "Master Recherche LLC": {
+      "M1": {
+        "ADSL": [4162],
+        "Cultural studies": [961],
+        "Etudes ibériques et ibérico-américaines": [962],
+        "Parcours Lettres": [963]
+      },
+      "M2": {
+        "Cultural studies": [897],
+        "Etudes ibériques et ibérico-américaines": [930],
+        "Parcours Lettres": [931]
+      }
+    },
+    "Master Métiers du Livre": {
+      "M1": {
+        "Groupe 1": [992],
+        "Groupe 2": [993]
+      },
+      "M2": {
+        "Documentation Numérique": [3626],
+        "Edition gr1": [1747],
+        "Edition gr2": [1749],
+        "Recherche": [4446],
+        "Alternance": [13344]
+      }
+    },
+    "Master Patrimoine culturel, patrimoine naturel": {
+      "M1": {
+        "TD Gr A": [981],
+        "TD Gr B": [982]
+      },
+      "M2": {
+        "TD Gr A": [983],
+        "TD Gr B": [984]
+      }
+    },
+    "Master MEEF": {
+      "M1 C2ME": {
+        "C2ME 2nde session": [4174],
+        "C2ME G1": [5020],
+        "C2ME G2": [5173],
+        "C2ME G3": [5174]
+      },
+      "M1 R2E": {
+        "R2E 2nde session": [4227],
+        "R2E G1": [5017],
+        "R2E G2": [5176]
+      },
+      "M1 PLC": {
+        "PLC1 - Anglais": [1133],
+        "PLC1 - HG": [1241]
+      },
+      "M1 PE": {
+        "TD1 TPA1": [5031],
+        "TD1 TPA2": [4026],
+        "TD2 TPB1": [3791],
+        "TD2 TPB2": [3600],
+        "TD2 TPC1": [1328],
+        "TD2 TPC2": [4194],
+        "TD2 TPD1": [4197],
+        "TD2 TPD2": [4231],
+        "TD3 TPE1": [4364],
+        "Admissibles enseignement civique": [367],
+        "Admissibles géographie": [758],
+        "Admissibles histoire": [476],
+        "Admissibles musique": [322],
+        "Admissibles sciences": [1042],
+        "Anglais Gr Avancés": [3770],
+        "Anglais Gr Consolidation": [774],
+        "Anglais Gr Intermédiaires": [3821],
+        "Espagnol Gr1": [4010],
+        "Option Arts": [6431],
+        "Option HGEMC": [5890],
+        "Option Sciences": [5913],
+        "Option arts visuels": [5893],
+        "Option géographie": [6247],
+        "Option Langues vivantes": [7030],
+        "Option musique": [4736],
+        "Option éducation civique": [5891],
+        "Part modulaire Gr1": [2375],
+        "Part modulaire Gr2": [2620],
+        "UE3 Recherche EICS": [5662],
+        "UE3 Recherche EICS gr 1": [7984],
+        "UE3 Recherche EICS gr 2": [7985],
+        "UE3 Recherche PLA": [5645]
+      },
+      "DIU second degré": {
+        "DIU ANG": [2711],
+        "DIU HG": [2812]
+      },
+      "M2 C2ME ": {
+        "C2ME": [5021],
+        "C2ME 2nde session": [4528],
+        "C2ME Soutenance": [1464]
+      },
+      "M2 R2E": {
+        "R2E": [5022],
+        "R2E 2nde session": [4581],
+        "R2E Soutenance": [1696]
+      },
+      "M2 PLC": {
+        "Anglais": [4777],
+        "HG": [646],
+        "HG Contractuels": [5454],
+        "HG Immersion Pro": [5451],
+        "PLC2 Profil 3": [842]
+      },
+      "M2 PE": {
+        "Délégués MEEF2_PE": [5552],
+        "G2_Stagiaires": [6761],
+        "M2-Profil 1": [6560],
+        "M2-Profil 2": [6559],
+        "M2-Profil 3": [6561],
+        "M2_PA_Option Arts visuels et histoire des arts": [5964],
+        "M2_PA_Option Histoire": [6021],
+        "PE2 - TP1": [906],
+        "PE2 - TP2": [1207],
+        "PE2 - TP3": [4745],
+        "PE2 GAPP 1": [9234],
+        "PE2 GAPP 3": [9300],
+        "PE2 GAPP2": [9235],
+        "PE2 Option His-Géo-EMC": [6022],
+        "PE2 Option LVE": [5970],
+        "PE2 Option Science": [5992],
+        "PE2 TDA": [7607],
+        "PE2 TDB": [7627],
+        "PE2 option arts": [5989],
+        "PE2C": [7584],
+        "PE2C Cycle 1": [1412],
+        "PE2C Cycle 2": [1501],
+        "PE2C Cycle 3": [1621],
+        "PE2I": [5777],
+        "PE2I Cycle 1": [2305],
+        "PE2I Cycle 2": [2324],
+        "PE2I Cycle 3": [2350],
+        "PE2S": [7594],
+        "PE2S Cycle 1": [1238],
+        "PE2S Cycle 2": [1254],
+        "PE2S Cycle 3": [1385],
+        "PES Cycle 1": [1889],
+        "PES Cycle 2": [2467],
+        "PES Cycle 3": [2806],
+        "PES (Stagiaires)": [6755],
+        "TP1-Cycle1_2": [6311],
+        "TP2-cycle3": [6312]
+      }
+    }
+  },
+  "Fac SSI": {
+    "AO Vannes": {
+      "Toutes années": {
+        "Aquarelle SSI Vannes": [6652],
+        "Cinéma SSI Vannes": [8802],
+        "Communication gagnante Vannes": [7992],
+        "Culture entrepreneur": [5480],
+        "Engagement SSI": [6603],
+        "Ligue de l'Enseignement SSI": [7736],
+        "Engagement associatif et bénévole SSI": [5197],
+        "Entreprends-toi SSI": [17661],
+        "Français sur Objectifs Universitaires SSI Vannes": [17662],
+        "Gravure SSI Vannes": [7991],
+        "Illustration du vivant": [7909],
+        "Initiation à la gestion comptable et financière SVT": [9175],
+        "Introduction à la psychologie sociale SSI SVT": [351],
+        "Jardinage et biodiversité SSI": [7599],
+        "Musique groupe UBS": [714],
+        "Photos SSI": [8370],
+        "Sensibilisation aux enjeux climatiques et environnementaux SSI": [7713],
+        "Street-Art SSI": [7990],
+        "Théâtre SSI": [8803],
+        "Parcours Europe SSI": [6472]
+      }
+    },
+    "AO Lorient": {
+      "AO LLSHS": {
+        "Ecriture créative en partenariat avec le centre pénitentiaire SSI": [5345],
+        "Histoire de l'Art SSI": [3772],
+        "Héritages antiques SSI": [1772],
+        "Initiation au FLE SSI": [2781],
+        "Introduction à l'archéologie : Histoire, méthodes et techniques SSI": [2147],
+        "Langues des signes G1 (LSF) SSI": [2782],
+        "Langues des signes G2 (LSF) SSI": [3677],
+        "Pratique du théâtre SSI": [1866],
+        "Tabac, alcool, sexe, drogues : physiologie et prévention SSI": [1800],
+        "Écriture créative G1 SSI": [1860],
+        "Écriture créative G2 SSI": [1799]
+      },
+      "AO SCVC": {
+        "AO Accompagnement à la scolarité L1 SSI": [5558],
+        "AO Accompagnement à la scolarité L3 SSI": [6244],
+        "AO Atelier créatif d'impression d'images SSI": [7073],
+        "AO Cinéma SSI": [5478],
+        "AO Design, Scupture et Impression 3D SSI": [7176],
+        "AO Engagement SSI": [7058],
+        "AO Engagement associatif et bénévole : Ligue de l'Enseignement SSI": [11976],
+        "AO Engagement associatif et bénévole SSI": [6650],
+        "AO Gravure et estampes SSI": [4569],
+        "AO Impression d'images SSI": [9165],
+        "AO Photographie SSI": [4812],
+        "AO Pratique musicale SSI": [5537],
+        "AO Radio SSI": [5553],
+        "AO Théâtre et improvisation SSI": [5536],
+        "AO Voix et chant SSI": [4857],
+        "AO Élu étudiant SSI": [6412]
+      },
+      "AO SPOT": {
+        "AO Cordée de la Réussite SSI": [7692],
+        "AO Entrepreneuriat : Entreprends-toi SSI": [7634],
+        "AO Entrepreneuriat : Fabrik ta pépite SSI": [7768],
+        "AO Entrepreneuriat Culture entrepreneur : démystifier l'entrepreneuriat SSI": [7685],
+        "AO Étudiant ambassadeur SSI": [7706]
+      },
+      "AO SSI": {
+        "AO Allemand SSI": [894],
+        "AO Communication gagnante : les atouts de la réussite SSI": [7999],
+        "AO Découverte de la biodiversité SSI": [7923],
+        "AO Espagnol SSI Lorient": [9330],
+        "AO Français sur Objectifs Universitaires (FOU) SSI Lorient": [8001],
+        "ASTEP SSI": [7998]
+      }
+    },
+    "CPEM": {
+      "Toutes années": {
+        "CPEM L": [4951]
+      }
+    },
+    "CUPGE MIS Vannes": {
+      "1ère année": {
+        "S1 CUPGE": [3669]
+      },
+      "2ème année": {
+        "S3 CUPGE I": [4783],
+        "S3 CUPGE MS": [5344]
+      }
+    },
+    "CUPGE Maths-Physique Lorient": {
+      "L1": {
+        "1A": [795, 6548],
+        "1B": [5381, 8071],
+        "1/3 temps": [9396]
+      },
+      "L2": {
+        "1A": [447, 7403],
+        "1B": [637, 7405],
+        "1C": [996],
+        "1/3 temps": [9387]
+      }
+    },
+    "DEUST STAPS - Lorient": {
+      "DEUST 1": {
+        "AGAPSC": [7785]
+      },
+      "DEUST 2": {
+        "AGAPSC": [393]
+      },
+      "Licence 1": {
+        "Groupe 1": [155],
+        "Groupe 2": [394]
+      }
+    },
+    "DU Gestionnaire de port de plaisance": {
+      "1ère année": {
+        "Gestionnaire de port de plaisance": [8693]
+      }
+    },
+    "DU Paréo": {
+      "1ère année": {
+        "Communication et Management": [2091],
+        "Santé et Médicosocial": [220]
+      }
+    },
+    "DU Impression 3D": {
+      "Toutes années": {
+        "DU I3D Santé": [6387],
+        "I3D MCI": [6480]
+      }
+    },
+    "Licence CMI": {
+      "L1": {
+        "S1 CMI SD": [7155],
+        "S2 CMI": [3660],
+        "S2 CMI-P": [7112]
+      },
+      "L2": {
+        "CMI": [3660, 2556]
+      },
+      "L3": {
+        "CMI": [2434]
+      }
+    },
+    "Licence Accès Santé": {
+      "L1": {
+        "LAS-MI": [3533],
+        "LAS-MP": [3451]
+      }
+    },
+    "Licences Maths-Info-Stat": {
+      "L1": {
+        "CMI-SD": [7155],
+        "CUPGE": [3669],
+        "LAS-MI": [3533],
+        "LAS-MP": [3451],
+        "MMI_IM": [4080],
+        "MMI_IP": [4529],
+        "MMI_MP": [4292],
+        "MmI_IM": [1910],
+        "MmI_IP": [3666],
+        "MmI_MP": [3502],
+        "Oui Si-2": [2476]
+      },
+      "L2": {
+        "CMI": [3660],
+        "CUPGE_I": [4783],
+        "CUPGE_MS": [5344],
+        "INFO-PHY": [3038],
+        "INFO-STAT": [5419],
+        "MATH-INFO": [2896],
+        "MATH-PHY": [2867],
+        "MATH-STAT": [4118],
+        "PEI-A Vannes": [8670]
+      },
+      "L3": {
+        "CMI IS": [4163, 2434],
+        "INFO 1": [427, 2234],
+        "INFO 2": [4796, 7577],
+        "INFO 3": [4389],
+        "INFO 4": [4434],
+        "MATH": [2022, 732],
+        "STAT 1": [4545, 2722],
+        "STAT 2": [2118, 7094]
+      }
+    },
+    "Licence SVT": {
+      "L1 Vannes": {
+        "S1 A": [7115],
+        "S1 AG": [9193],
+        "S1 AGEMC": [9194],
+        "S1 AGMC": [9195],
+        "S1 AV": [9196],
+        "S1 AVC": [9197],
+        "S1 AVEC": [9198],
+        "S1 AVEMC": [9199],
+        "S1 AVM": [9200],
+        "S1 AVMC": [9201],
+        "S1 P": [9202],
+        "S1 PA": [9203],
+        "S1 PS": [9204],
+        "S1 PSC": [9205],
+        "S1 PSE": [9206],
+        "S1 PSEM": [9207],
+        "S1 PSM": [9208],
+        "S1 PSMC": [9209],
+        "S1 PV": [9232],
+        "S1 S": [9268],
+        "S1 SA": [9280],
+        "S1 SAC": [9281],
+        "S1 SAEC": [9282],
+        "S1 SAEM": [9283],
+        "S1 SAEMC": [9284],
+        "S1 SAM": [9285],
+        "S1 SAMC": [9286],
+        "S1 SC": [9287],
+        "S1 SE": [9288],
+        "S1 SEM": [9289],
+        "S1 SGC": [9290],
+        "S1 SGM": [9291],
+        "S1 SM": [9292],
+        "S1 SMC": [9293],
+        "S1 SV": [9294],
+        "S1 SVC": [9295],
+        "S1 SVE": [9296],
+        "S1 SVMC": [9297],
+        "S1 VG": [9298],
+        "S1 VGC": [9299],
+        "S1 VGEMC": [9307],
+        "S1 VGMC": [9314],
+        "S2 B": [6514],
+        "S2 BC": [6518],
+        "S2 BCC": [6522],
+        "S2 BCMC": [6525],
+        "S2 BE": [6527],
+        "S2 BEC": [6528],
+        "S2 BECE": [7577],
+        "S2 BEMC": [7596],
+        "S2 BEMCE": [7765],
+        "S2 BGC": [8123],
+        "S2 BGM": [8124],
+        "S2 BP": [8125],
+        "S2 C": [8126],
+        "S2 CC": [8127],
+        "S2 CE": [8128],
+        "S2 CM": [8129],
+        "S2 CMC": [8130],
+        "S2 E": [8131],
+        "S2 EC": [8132],
+        "S2 ECC": [8133],
+        "S2 EG": [8134],
+        "S2 EGC": [8135],
+        "S2 EGCE": [8136],
+        "S2 EGM": [8137],
+        "S2 EGMC": [8138],
+        "S2 EGMCE": [8139],
+        "S2 EGME": [8140],
+        "S2 EPCE": [8141],
+        "S2 G": [8142],
+        "S2 GC": [8143],
+        "S2 GCC": [8144],
+        "S2 GCMCE": [8145],
+        "S2 GPMC": [8146],
+        "S2 P": [8147],
+        "S2 PASS 1": [8159],
+        "S2 PASS 2": [8160],
+        "S2 PC": [8148],
+        "S2 PCC": [8149],
+        "S2 PCCE": [8150],
+        "S2 PCE": [8151],
+        "S2 PCMC": [8152],
+        "S2 WE": [8153]
+      },
+      "L1 Lorient": {
+        "S1 BP1": [2039],
+        "S1 BP2": [990],
+        "S1 BP3": [6347],
+        "S1 BP4": [4077],
+        "S1 EB1": [2029],
+        "S1 EB2": [2056],
+        "S1 EB3": [2070],
+        "S1 EB4": [998],
+        "S1 EB5": [6314],
+        "S1 EG1": [2137],
+        "S1 EG2": [2218],
+        "S1 EG3": [787],
+        "S1 GP1": [2010],
+        "S1 GP2": [997],
+        "S1 Prégroupe TD prov 1": [3729],
+        "S1 Prégroupe TD prov 2": [3745],
+        "S1 Prégroupe TD prov 3": [3757],
+        "S1 Prégroupe TD prov 4": [3832],
+        "S1 Prégroupe TP prov 1": [6632],
+        "S1 Prégroupe TP prov 2": [6635],
+        "S1 Prégroupe TP prov 3": [6646],
+        "S1 Prégroupe TP prov 4": [6655],
+        "S1 Prégroupe TP prov 5": [6701],
+        "S1 Prégroupe TP prov 6": [6809],
+        "S1 Prégroupe TP prov 7": [8058],
+        "S1 Prégroupe TP prov 8": [8059],
+        "S2 BG1": [8019],
+        "S2 BG2": [8020],
+        "S2 BP1": [8009],
+        "S2 BP2": [8010],
+        "S2 BP3": [8011],
+        "S2 BP4": [8012],
+        "S2 CG1": [8024],
+        "S2 CP1": [8022],
+        "S2 CP2": [8023],
+        "S2 CP3": [8014],
+        "S2 CP4": [8015],
+        "S2 CP5": [8016],
+        "S2 CP6": [8025],
+        "S2 CP7": [9444],
+        "S2 CP8": [9445]
+      },
+      "L2 Vannes": {
+        "S3 BC": [8399],
+        "S3 E": [19483],
+        "S3 EB": [19484],
+        "S3 EBM": [9276],
+        "S3 EBM4": [19337],
+        "S3 EBMr": [19485],
+        "S3 ED": [8604],
+        "S3 EDB3": [9275],
+        "S3 EDBr": [9274],
+        "S3 EDLa14": [9259],
+        "S3 EDLb15": [9260],
+        "S3 EDLc8": [9269],
+        "S3 EDLe5": [8605],
+        "S3 EDLr": [8602],
+        "S3 EL": [8603],
+        "S3 ELBa6": [19338],
+        "S3 ELBb5": [19339],
+        "S3 ELC": [19340],
+        "S3 ELM2": [9277],
+        "S3 ELMa7": [19341],
+        "S3 ELMb5": [19342],
+        "S3 ELMc6": [17056],
+        "S3 ELMd4": [19343],
+        "S3 ELMe3": [19345],
+        "S3 ELMv": [19344],
+        "S3 ELZ6": [17669],
+        "S3 ELZe": [17671],
+        "S3 ZBC": [19055],
+        "S3 ZBC9": [8405],
+        "S3 ZBCLas2": [8402],
+        "S3 ZBCLasa4": [19482],
+        "S3 ZBCLasb": [6398],
+        "S3 ZBCLasb3": [19486],
+        "S3 ZBCLase3": [8400],
+        "S3 ZBCb": [6395],
+        "S3 ZBCe": [8403],
+        "S3 ZBCr": [8426],
+        "S3 ZBCra": [19491],
+        "S3 ZBCrb": [19492],
+        "S3 ZBD": [8567],
+        "S3 ZBDLas2": [8548],
+        "S3 ZBDLase2": [8542],
+        "S3 ZBDe": [8550],
+        "S3 ZBDr": [8591],
+        "S3 ZBE": [18754],
+        "S3 ZBM16": [19489],
+        "S3 ZBM8": [6940],
+        "S3 ZBMLas10": [19487],
+        "S3 ZBMLase": [4278],
+        "S3 ZBMa6": [2385],
+        "S3 ZBMe": [19490],
+        "S3 ZBMe6": [1096],
+        "S3 ZBMlas2": [1094],
+        "S3 ZBMr": [8398],
+        "S3 ZDCLas8": [8601],
+        "S3 ZDM": [8597],
+        "S3 ZDMLas": [8592],
+        "S3 ZMC10": [19481],
+        "S3 ZMCLas6": [19488],
+        "S3 ZMCa6": [8434],
+        "S3 ZMCb8": [8532],
+        "S3 ZMCe": [6490],
+        "S4 ACE2": [7112],
+        "S4 ACELas3": [7201],
+        "S4 ACIe": [9476],
+        "S4 AGP7": [9483],
+        "S4 AGPe": [9484],
+        "S4 AIE": [7556],
+        "S4 APG5": [9477],
+        "S4 AZELas": [7561],
+        "S4 GPa": [9485],
+        "S4 GPb": [9486],
+        "S4 MAPa5": [9478],
+        "S4 MAPb7": [9479],
+        "S4 MAPc8": [9480],
+        "S4 MAPd4": [9481],
+        "S4 MAPe4": [9482],
+        "S4 MAPf7": [9487],
+        "S4 ZC": [7563],
+        "S4 ZIA2": [9475],
+        "S4 ZIC": [7575],
+        "S4 ZICLas": [7650],
+        "S4 ZICa12": [7564],
+        "S4 ZICaLas7": [7565],
+        "S4 ZICb9": [7566],
+        "S4 ZICbLas5": [7567],
+        "S4 ZICc7": [7569],
+        "S4 ZICe7": [7571],
+        "S4 ZICeA": [8165],
+        "S4 ZICeLas5": [7572]
+      },
+      "L2 Lorient": {
+        "S3 ABC1": [7610],
+        "S3 ABD1": [7612],
+        "S3 ABE1": [7613],
+        "S3 ABF1": [3618],
+        "S3 ACD1": [3774],
+        "S3 ACF1": [725],
+        "S3 AVUE": [5224],
+        "S3 BCD1": [7614],
+        "S3 BCD2": [2888],
+        "S3 BCD3": [5489],
+        "S3 BCE1": [753],
+        "S3 BCF1": [4464],
+        "S3 BCF2": [917],
+        "S3 BCF3": [5429],
+        "S4 AB1": [6468],
+        "S4 AB2": [6675],
+        "S4 AB3": [6696],
+        "S4 AB4": [2841],
+        "S4 AB5": [2804],
+        "S4 AB6": [2805],
+        "S4 AC1": [8122],
+        "S4 BC1": [7092],
+        "S4 BE1": [2853]
+      },
+      "L3 Biologie Cellulaire et Moléculaire": {
+        "S5 C01a_MGD_TA TP1": [3732],
+        "S5 C01b_MGD_TA TP1": [6186],
+        "S5 C02_MGD_TA TP2": [3728],
+        "S5 C03_MGD_TA TP2": [3701],
+        "S5 C04_MGD_TA TP3": [5538],
+        "S5 C05_MGD_TA TP3": [4788],
+        "S5 C06_ MGD-TA TP4": [4753],
+        "S5 C07_MGD_TA_Alt TP1": [4754],
+        "S5 C08_MGD_T_Alt TP1": [4439],
+        "S5 C09_D_TA TP4": [3807],
+        "S5 C10_ G_TA-a TP1": [9156],
+        "S5 C11_M_TA-a TP1": [9159],
+        "S5 C12_MG_TA-a TP4": [9160],
+        "S6 C01a CIVNU": [9450],
+        "S6 C01b CIVNU": [9455],
+        "S6 C01c CIVNU": [9456],
+        "S6 C01d CIVN": [9457],
+        "S6 C02 CVNAU": [9458],
+        "S6 C03a CINAU": [9459],
+        "S6 C03b CINAU": [9460],
+        "S6 C04 CIVAU": [9461],
+        "S6 C05Alt CVNU": [9462],
+        "S6 C06 CN": [9463],
+        "S6 C07 CIVNAU": [9464],
+        "S6 C08 CV": [9465],
+        "S6 C09 CIV": [9466],
+        "C13 Anglais débutant": [7650]
+      },
+      "L3 Biologie et Écologie générales": {
+        "S5 G1_IPD_BO": [3814],
+        "S5 G2_IPD_BO": [3837],
+        "S6 B01a RVeBM": [9468],
+        "S6 B01b RVeMV": [9469],
+        "S6 B01c RVeBM": [9470],
+        "S6 B01d RBMA": [9471],
+        "S6 B01e RBMV": [9472],
+        "S6 B01f RVEBA": [9473],
+        "S6 B01g RVeBV": [9498],
+        "C13 Anglais débutant": [7650]
+      },
+      "L3 Sciences de l'Environnement": {
+        "S5 E1_OID_SH (7)": [4035],
+        "S5 E2_OID_S (7)": [4009],
+        "S6 S01 CGFBU": [9451],
+        "S6 S02 RCGBU": [9452],
+        "S6 S03 RCGFU": [9453],
+        "S6 S04 RCFBU": [9454],
+        "S6 S05 RCFU": [9467],
+        "C13 Anglais débutant": [7650]
+      },
+      "L3 Bio Santé": {
+        "TP1": [1901],
+        "TP2": [2223]
+      },
+      "L3 Biotechnologies": {
+        "TP1": [1920],
+        "TP2": [1945]
+      },
+      "L3 TACB": {
+        "TP1": [1894],
+        "TP2": [1895]
+      }
+    },
+    "Licence Physique": {
+      "L1": {
+        "A1": [7217, 5065],
+        "A2": [2352, 5120],
+        "B1": [7220, 7783],
+        "B2": [9270, 7812],
+        "1/3 temps": [9389]
+      },
+      "L2": {
+        "A": [863, 7408],
+        "B": [960, 7409],
+        "1/3 temps": [9385]
+      },
+      "L3": {
+        "S5 PMMC": [1244],
+        "S5 Électronique": [1276],
+        "S6 Calcul des structures": [2874],
+        "S6 Transferts de chaleur": [9123],
+        "S6 Électronique": [2500]
+      }
+    },
+    "Licence SES": {
+      "L1": {
+        "Double diplôme Lettres-Sciences": [1242],
+        "TP1": [636],
+        "TP2": [6702],
+        "TP3": [1980]
+      },
+      "L2": {
+        "Gr1": [1569],
+        "Gr2": [1570],
+        "Gr PE": [2472]
+      },
+      "L3": {
+        "TP1": [5417],
+        "TP2": [5421]
+      }
+    },
+    "Licence SNIO": {
+      "L1": {
+        "Groupe 1": [7233, 8030],
+        "Groupe 2": [4592, 7235],
+        "1/3 temps": [9388]
+      },
+      "L2": {
+        "S3 Groupe 1": [1969],
+        "S3 Groupe 2": [1095],
+        "S4 Groupe 1": [7418],
+        "S4 Groupe 2": [8105],
+        "1/3 temps": [9386]
+      },
+      "L3": {
+        "Groupe 1": [1547],
+        "Groupe 2": [1548]
+      }
+    },
+    "Licence Énergie et environnement": {
+      "L1": {
+        "Groupe 1": [3830, 5617]
+      },
+      "L2": {
+        "Groupe 1": [1326, 7411],
+        "1/3 temps": [9383]
+      },
+      "L3": {
+        "TP1": [1179],
+        "TP2": [1659]
+      }
+    },
+    "Licence Matériaux et transition écologique": {
+      "L1": {
+        "Groupe 1": [4016, 7205]
+      },
+      "L2": {
+        "Groupe 1": [2721, 7412]
+      },
+      "L3": {
+        "MTE1-1": [1014],
+        "MTE1-2": [1015],
+        "MTE2": [712]
+      }
+    },
+    "Licence Mécanique/Génie Civil": {
+      "L1": {
+        "S1 5A1": [7250],
+        "S1 5A2": [6913],
+        "S1 5B": [7259],
+        "S2 5A": [7218],
+        "S2 5B": [7219],
+        "S2 5C1": [7225],
+        "S2 5C2": [7227],
+        "S2 5D": [7231],
+        "1/3 temps": [9394]
+      },
+      "L2": {
+        "S3 5A": [1386],
+        "S3 5B": [1467],
+        "S4 5A": [7413],
+        "S4 5B": [7416],
+        "S4 5C": [8104],
+        "1/3 temps": [9363]
+      },
+      "L3 Génie civil": {
+        "S5 TP1-Esp 0": [9192],
+        "S5 TP1-Esp 1": [2177],
+        "S5 TP1-SHN": [2178],
+        "S5 TP2-AO Jeudi": [4882],
+        "S5 TP2-FOU": [4882],
+        "S5 TP3-Esp 0": [2179],
+        "S6 TP1": [3640],
+        "S6 TP2.1": [2949],
+        "S6 TP2.2": [6680],
+        "S6 TP3": [6686]
+      },
+      "L3 Mécanique": {
+        "TP1": [339, 2582],
+        "TP2": [2248, 5696],
+        "TP3": [7963]
+      }
+    },
+    "Licence TACB": {
+      "L1": {
+        "LP1 TACB": [517]
+      },
+      "L2": {
+        "LP2 TACB-S4": [4846],
+        "LP2a TACB": [7933],
+        "LP2b TACB": [7669]
+      },
+      "L3": {
+        "L3 TACB TP1": [1894],
+        "L3 TACB TP2": [1895],
+        "LP3 TACB TP1": [1896],
+        "LP3 TACB TP2": [1282]
+      }
+    },
+    "LP DPCS": {
+      "1ère année": {
+        "Groupe 1": [4747],
+        "Groupe 2 avec alternants": [4794]
+      }
+    },
+    "LP EMEC": {
+      "1ère année": {
+        "Groupe 1": [1202],
+        "Groupe 2": [717]
+      }
+    },
+    "LP Nautisme": {
+      "1ère année": {
+        "Groupe 1": [1210],
+        "Groupe 2": [1868]
+      }
+    },
+    "Master Science des données": {
+      "M1": {
+        "SDD": [3767, 7417]
+      },
+      "M2": {
+        "SDD": [3596]
+      }
+    },
+    "Master MEEF S2IME": {
+      "M1": {
+        "Groupe 1": [442],
+        "DIU S2I": [672]
+      },
+      "M2": {
+        "Groupe 1": [1285],
+        "DIU S2I": [672]
+      }
+    },
+    "Master MEEF PLP": {
+      "M2": {
+        "TD 1 BIOTECH": [2156],
+        "TD 1 MSPC": [2134],
+        "TD 1 STI": [2152],
+        "TD 2 ARTS APP": [2396],
+        "TD 2 ECO-GESTION": [2251],
+        "TD 2 LETTRES - HG": [2280],
+        "TD 2 LETTRES - LANGUES": [2328]
+      }
+    },
+    "Master CMI": {
+      "M1": {
+        "CMI": [1312]
+      },
+      "M2": {
+        "CMI": [2817]
+      }
+    },
+    "Master COPERNICUS": {
+      "M2": {
+        "COPERNICUS": [4986]
+      }
+    },
+    "Master AIDN": {
+      "M1": {
+        "Groupe 1": [4807, 5884]
+      },
+      "M2": {
+        "Groupe 1": [4778],
+        "Groupe 2": [7857]
+      }
+    },
+    "Master SAIM": {
+      "M1": {
+        "Groupe 1": [2625, 4714]
+      },
+      "M2": {
+        "Groupe 1": [775]
+      }
+    },
+    "Master DSMS": {
+      "M1": {
+        "STAT DSMS1": [1397, 5861],
+        "STAT DSMS2": [2910, 1766]
+      },
+      "M2": {
+        "STAT DSMS1": [830],
+        "STAT DSMS2": [6145]
+      }
+    },
+    "Master IGRCL": {
+      "M1": {
+        "G1": [607, 6564]
+      },
+      "M2": {
+        "G1": [662]
+      }
+    },
+    "Master BMB": {
+      "M1": {
+        "Groupe Roscoff": [5349, 2772],
+        "GPA": [5030, 450],
+        "GPB": [5049, 2880],
+        "S8 BM & Vect": [5016],
+        "S8 Genet Mic": [5012],
+        "S8 TP Chimie": [4769],
+        "S8 TP Peptidomique": [5007],
+        "S8 UE Bioremed": [5025],
+        "S8 UE Omiques": [5368]
+      },
+      "M2": {
+        "Grp 1": [320],
+        "Grp 2": [915],
+        "Grp 3": [2727],
+        "Grp 4": [2506],
+        "Grp 5": [2741],
+        "Grp BAM": [1585],
+        "Grp BIOMACROM": [1586]
+      }
+    },
+    "Master IABC": {
+      "M1": {
+        "Grp 1": [844]
+      },
+      "M2": {
+        "Grp 1": [1730]
+      }
+    },
+    "Master Ingénierie des Systèmes Complexes": {
+      "M1": {
+        "CSSE - Alternants": [1893],
+        "CSSE - Non Alternants": [7780],
+        "CSSE - TP groupe 1": [6256],
+        "CSSE - TP groupe 2": [6270],
+        "CYBERUS English course": [6303],
+        "CYBERUS French course - Group 1": [9249],
+        "CYBERUS French course - Group 2": [6301],
+        "CYBERUS IoT": [6894],
+        "CYBERUS Software": [6898],
+        "CYBERUS group 1": [2245],
+        "CYBERUS group 2": [2338],
+        "EII Hispano": [92],
+        "SESI": [1880],
+        "OP & PI-Alt": [4834]
+      },
+      "M2": {
+        "ISC - CSSE - Alternants": [688],
+        "ISC - CSSE - Non Alternants": [1858],
+        "ISC - SESI": [689],
+        "I-Mars": [1731],
+        "OP & PI-Alt": [496],
+        "OP & PI-Spé": [1296]
+      }
+    },
+    "Master Ingénierie Marine": {
+      "M1": {
+        "TP1": [1552],
+        "TP2": [2688]
+      },
+      "M2": {
+        "TP1": [2692],
+        "TP2": [2693]
+      }
+    },
+    "Master Thermique Énergétique": {
+      "M1": {
+        "1a": [2062],
+        "1b": [2063],
+        "2a Alt": [2100],
+        "2b Alt": [2114]
+      },
+      "M2": {
+        "1a": [204],
+        "1b": [205],
+        "2a": [206],
+        "2b": [207],
+        "Recherche": [1899]
+      }
+    },
+    "Master GCMP": {
+      "M1": {
+        "TP1": [491],
+        "TP2": [493],
+        "TP3": [494],
+        "TP4": [495]
+      },
+      "M2": {
+        "TP1 All.": [5836],
+        "TP1 Esp.": [4608],
+        "TP1 FLE": [5848],
+        "TP1 Alt. All.": [5309],
+        "TP1 Alt. Esp.": [5854],
+        "TP1 Alt. FLE": [6789],
+        "TP2 Alt.": [8600]
+      }
+    },
+    "Master GMM": {
+      "M1": {
+        "TP1": [683],
+        "TP2": [684],
+        "TP3": [346]
+      },
+      "M2": {
+        "FA": [769],
+        "FI-Double": [1870],
+        "FI-Pro": [1864]
+      }
+    },
+    "Master ECPC": {
+      "M1": {
+        "Groupe 1": [610],
+        "Groupe 2": [1947]
+      },
+      "M2": {
+        "C'Nano": [1814],
+        "1a": [251],
+        "1b": [4922],
+        "2a": [1760],
+        "2b": [4924]
+      }
+    },
+    "Master EIT": {
+      "M2": {
+        "Grp 1": [6007]
+      }
+    },
+    "Master MMGC Recherche": {
+      "M2": {
+        "GCR": [5215],
+        "GCR Double cursus": [5717],
+        "R-GM": [792]
+      }
+    },
+    "Master EC": {
+      "M2": {
+        "Grp1": [3540]
+      }
+    }
+  },
+  "Autres Plannings": {
+    "Atouts réussite": {
+      "Toutes années": {
+        "G1 Lorient": [4534],
+        "G2 Lorient": [6048],
+        "G1 Vannes": [2747],
+        "G2 Vannes": [2784]
+      }
+    },
+    "Université Temps Libre": {
+      "Toutes années": {
+        "UTL Anglais A1-A2": [2180],
+        "UTL Anglais A2": [341],
+        "UTL Anglais B1": [5642],
+        "UTL Anglais B2": [2018],
+        "UTL Espagnol A2": [7925],
+        "UTL Espagnol A2-bis": [6699],
+        "UTL Espagnol AO / A1": [1955],
+        "UTL Espagnol B1-B2": [1943]
+      }
+    },
+    "Service des Affaires Internationales": {
+      "Toutes années": {
+        "FPE Lorient A2-B1": [2494],
+        "FPE Lorient B2-C1": [6106],
+        "FPE Vannes": [6107],
+        "SAI": [6257],
+        "SAI Hispanophone": [856],
+        "SAI Lusophone": [5613],
+        "SAI Weihai & Beijing": [6105]
+      }
+    },
+    "Service de Formations Professionnel et Alternance": {
+      "Toutes années": {
+        "DIVA": [138],
+        "Formation professionnelle": [1862],
+        "REVA": [416],
+        "VAE": [414],
+        "VAPRE": [415]
+      }
+    },
+    "Centre des langues": {
+      "Toutes années": {
+        "Certifications Anglais TOEIC 1 (tout public)": [5618],
+        "Certifications Anglais TOEIC 2 (institutionnel)": [5667],
+        "Certifications Allemand-Goethe": [5725],
+        "Certifications Catalan": [5735],
+        "Certifications Chinois (HSK)": [5746],
+        "Certifications Espagnol CLES B2": [5707],
+        "Certifications Espagnol DELE (oral)": [8938],
+        "Certifications Espagnol DELE (écrit)": [5670],
+        "Certifications Français DELF/DALF": [5570],
+        "Certifications Français TCF": [5559],
+        "Formations Anglais Cambridge": [5140],
+        "Formations Anglais Prépa TOEIC": [4963],
+        "Formations Allemand": [5251],
+        "Formations Espagnol": [5499],
+        "Formations FLE Ateliers": [4040],
+        "Formations FLE Niv B1-B2": [3506],
+        "Formations FLE Niv C1-C2": [5756],
+        "Formations Cours semi-intensifs FLE A": [3725],
+        "Formations Cours semi-intensifs FLE B": [7017],
+        "Formations Cours semi-intensifs FLE C": [1107],
+        "Formations FLE Intensifs été": [4330],
+        "Formation FLE Test de positionnement": [6897]
+      }
+    }
+  }
+}
