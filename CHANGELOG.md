@@ -1,5 +1,11 @@
 # Changelog
 
+## [v2.6] - 2025-10-01
+
+### Added
+- Can emarge multiple time from one course if the course is on 2 interval
+- set FR language / dimension of the screen
+
 ## [v2.5] - 2025-05-07
 
 ### Added

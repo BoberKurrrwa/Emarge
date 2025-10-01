@@ -130,9 +130,6 @@ def check_for_updates(LAST_RELEASE_NAME):
             log_print(f"La nouvelle mise à jour {latest_name} est disponible sur github", "update")
             LAST_RELEASE_NAME = latest_name
 
-# Set the last github commit hash
-LAST_RELEASE_NAME = get_latest_releases_name()
-
 def log_print(message, warning="info"):
     """
     Print a message with a specific color, log it and send a notification is needed.
@@ -157,6 +154,9 @@ def log_print(message, warning="info"):
         print(f"[{BLUE}+{RESET}] {message}")
         send_notification(f"🆕 {message}")
 
+# Set the last github commit hash
+LAST_RELEASE_NAME = get_latest_releases_name()
+
 def send_notification(message):
     """
     Send a notification with ntfy.sh if the TOPIC is set
@@ -164,43 +164,84 @@ def send_notification(message):
     if TOPIC is not None and TOPIC != "XXXXXXXXXXX":
         requests.post(f"https://ntfy.sh/{TOPIC}", data=message.encode())
 
-def ensure_minimum_gap(events, min_gap_minutes=15):
+def ensure_minimum_gap(events):
     """
-    Ensure there's a minimum gap between events (min_gap_minutes).
-    If an event starts too soon after the previous one, adjust its start/end times.
+    Ensure events are mapped to predefined time slots and only one emargement per slot.
+    Time slots: 8h-9h30, 9h45-11h15, 11h30-13h00, 13h00-14h30, 14h45-16h15, 16h30-18h00, 18h15-19h45
     """
     if not events:
         return []
-    
+
+    # Define the predefined time slots
+    TIME_SLOTS = [
+        ("08:00", "09:30"),
+        ("09:45", "11:15"),
+        ("11:30", "13:00"),
+        ("13:00", "14:30"),
+        ("14:45", "16:15"),
+        ("16:30", "18:00"),
+        ("18:15", "19:45")
+    ]
+
     # Sort events by start time
     sorted_events = sorted(events, key=lambda x: x["start"])
-    
-    result = [sorted_events[0]]  # Add first event directly
-    
-    for event in sorted_events[1:]:
-        last_event = result[-1]
-        min_start_time = last_event["end"] + timedelta(minutes=min_gap_minutes)
-        
-        # If the event starts before the minimum allowed time
-        if event["start"] < min_start_time:
-            # Calculate event duration
-            event_duration = (event["end"] - event["start"]).total_seconds() / 60
-            
-            # Adjust the start time
-            new_start = min_start_time
-            # Adjust the end time to maintain the same duration
-            new_end = new_start + timedelta(minutes=event_duration)
-            
-            # Create adjusted event
-            adjusted_event = event.copy()
-            adjusted_event["start"] = new_start
-            adjusted_event["end"] = new_end
-            
-            result.append(adjusted_event)
-        else:
-            # Event already has sufficient gap, add it as is
-            result.append(event)
-    
+
+    result = []
+    used_slots = set()  # Track which slots have been used for emargement
+
+    for event in sorted_events:
+        event_start = event["start"]
+        event_end = event["end"]
+
+        # Find which time slot(s) this event overlaps with
+        overlapping_slots = []
+
+        for i, (slot_start, slot_end) in enumerate(TIME_SLOTS):
+            # Convert slot times to datetime objects for comparison
+            slot_start_dt = event_start.replace(
+                hour=int(slot_start.split(':')[0]),
+                minute=int(slot_start.split(':')[1]),
+                second=0,
+                microsecond=0
+            )
+            slot_end_dt = event_start.replace(
+                hour=int(slot_end.split(':')[0]),
+                minute=int(slot_end.split(':')[1]),
+                second=0,
+                microsecond=0
+            )
+
+            # Check if event overlaps with this slot
+            if (event_start < slot_end_dt and event_end > slot_start_dt):
+                overlapping_slots.append(i)
+
+        # Create emargement events for each overlapping slot that hasn't been used
+        for slot_index in overlapping_slots:
+            if slot_index not in used_slots:
+                slot_start, slot_end = TIME_SLOTS[slot_index]
+
+                # Create new event for this slot
+                slot_start_dt = event_start.replace(
+                    hour=int(slot_start.split(':')[0]),
+                    minute=int(slot_start.split(':')[1]),
+                    second=0,
+                    microsecond=0
+                )
+                slot_end_dt = event_start.replace(
+                    hour=int(slot_end.split(':')[0]),
+                    minute=int(slot_end.split(':')[1]),
+                    second=0,
+                    microsecond=0
+                )
+
+                # Create new event for emargement
+                emarge_event = event.copy()
+                emarge_event["start"] = slot_start_dt
+                emarge_event["end"] = slot_end_dt
+
+                result.append(emarge_event)
+                used_slots.add(slot_index)
+
     return result
 
 def filter_events(events):
