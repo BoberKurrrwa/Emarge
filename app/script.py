@@ -9,6 +9,7 @@ import datetime
 import random
 import requests
 import json
+import re
 from datetime import datetime, timedelta
 
 # Set the timezone and allowed days
@@ -27,6 +28,7 @@ TP = os.getenv("TP")
 blacklist = os.getenv("blacklist")
 TOPIC = os.getenv("TOPIC")
 MODE = os.getenv("MODE")
+RECAP = os.getenv("RECAP")
 
 if A == "X" or TP == "X" or FORMATION == "X":
     print(f"[{RED}-{RESET}] Vous devez d'abord définir les variables d'environnement A, TP et FORMATION dans le docker-compose.yml")
@@ -254,6 +256,287 @@ def filter_events(events):
             filtered_events.append(event)
     return filtered_events
 
+
+def recup_emargement():
+    """
+    Perform all the process like a normal student to emerge
+    """
+#    options.add_argument(f"--user-agent={UserAgent(os='Linux').random}")
+    driver = webdriver.Chrome()
+    log_print(f"Ouverture du navigateur Selenium pour récupérer les émargements")
+
+    driver.get("https://moodle.univ-ubs.fr/")
+    time.sleep(10)
+
+    # Select UBS on the mir
+    select_element = driver.find_element(By.ID, "idp")
+    dropdown = Select(select_element)
+    dropdown.select_by_visible_text("Université Bretagne Sud - UBS")
+    select_button = driver.find_element(By.XPATH, "//button[@type='submit' and contains(@class, 'btn-primary')]")
+    select_button.click()
+    time.sleep(10)
+
+    # Enter USERNAME / PASSWORD and submit them
+    username_input = driver.find_element(By.ID, "username")
+    username_input.send_keys(USERNAME)
+    password_input = driver.find_element(By.ID, "password")
+    password_input.send_keys(PASSWORD)
+    login_button = driver.find_element(By.XPATH, "//button[@type='submit' and contains(@class, 'btn-primary')]")
+    login_button.click()
+
+    # Check if the mir accepted our credentials
+    try:
+        driver.find_element(By.ID, "loginErrorsPanel")
+        log_print(f"Identifiant ou mot de passe incorrect", "warning")
+        driver.quit()
+        quit()
+    except NoSuchElementException:
+        logging.info("Connexion réussie")
+    time.sleep(10)
+
+    # Click on the first result that contains "ENSIBS : Émargement"
+    try:
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        target_span = soup.find('span', class_='sr-only', string='ENSIBS : Émargement')
+        link = target_span.find_next('a')
+        href = link.get('href')
+        driver.get(href)
+        time.sleep(10)
+
+    except Exception as e:
+        log_print(f"Impossible de trouver le lien d'émargement : {e}", "warning")
+        driver.quit()
+        quit()
+
+    # Click on the Présence link on the bottom of the page
+    try:
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        activity_divs = soup.find_all('div', class_='activityname')
+        for div in activity_divs:
+            if "Présence" in div.text:
+                link = div.find('a')['href']
+                driver.get(link)
+                time.sleep(5)
+                break
+    except Exception as e:
+        log_print(f"Impossible de trouver le lien d'émargement pour : {e}", "warning")
+        driver.close()
+        driver.quit()
+        quit()
+
+    try:
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+
+        attendance_link = None
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if re.match(r"https://moodle\.univ-ubs\.fr/mod/attendance/view\.php\?id=\d+&view=2", href):
+                attendance_link = href
+                break
+
+        if not attendance_link:
+            raise RuntimeError("Lien vers les émargements de la semaine introuvable")
+
+        driver.get(attendance_link)
+        time.sleep(10)
+
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+
+        table = soup.find("table", class_="generaltable attwidth boxaligncenter")
+        if not table:
+            raise RuntimeError("Table 'generaltable' introuvable")
+
+        validated = []
+
+        rows = table.find_all("tr")
+        for row in rows:
+            cells = row.find_all("td")
+            if not cells:
+                continue
+
+            # cellule points
+            points_cell = row.find("td", class_="pointscol cell c3")
+            if not points_cell:
+                continue
+
+            points_text = points_cell.get_text(strip=True)
+
+            if points_text == "2 / 2":
+                validated.append({
+                    "raw_row": row.get_text(" ", strip=True),
+                    "date": cells[0].get_text(strip=True),
+                    "points": points_text
+                })
+
+        return validated
+    except Exception as e:
+        log_print(f"Impossible de trouver vos émargements : {e}", "warning")
+        driver.close()
+        driver.quit()
+        quit()
+
+
+    driver.quit()
+    time.sleep(2)
+
+
+def parse_moodle_date(date_str):
+    """
+    Convertit :
+    '15.12.25 (lun.)08:00 - 09:30'
+    → (datetime_start, datetime_end)
+    """
+
+    m = re.match(
+        r"(\d{2})\.(\d{2})\.(\d{2}).*?(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})",
+        date_str
+    )
+    if not m:
+        return None, None
+
+    day, month, year, h_start, h_end = m.groups()
+    year = int("20" + year)
+
+    start = datetime.strptime(
+        f"{year}-{month}-{day} {h_start}",
+        "%Y-%m-%d %H:%M"
+    )
+    end = datetime.strptime(
+        f"{year}-{month}-{day} {h_end}",
+        "%Y-%m-%d %H:%M"
+    )
+
+    return PARIS_TZ.localize(start), PARIS_TZ.localize(end)
+
+def normalize_moodle_attendance(moodle_events):
+    """
+    Transforme les émargements Moodle en structure comparable
+    """
+    normalized = []
+
+    for ev in moodle_events:
+        start, end = parse_moodle_date(ev["date"])
+        if start:
+            normalized.append({
+                "start": start,
+                "end": end
+            })
+
+    return normalized
+
+
+
+def parse_time(t):
+    return datetime.strptime(t, "%H:%M").time()
+
+
+def slot_overlap(course_start, course_end, slot_start, slot_end):
+    return course_start.replace(tzinfo=None) < slot_end and course_end.replace(tzinfo=None) > slot_start
+
+
+def course_used_slots(courses):
+    """
+    Retourne la liste des créneaux (index) utilisés par un cours
+    """
+    used = []
+
+#    for course in courses:
+    course_start = courses["start"]
+    course_end = courses["end"]
+    day = course_start.date()
+
+    for i, (s, e) in enumerate(TIME_SLOTS):
+        slot_start = datetime.combine(day, parse_time(s))#.replace(tzinfo=PARIS_TZ)
+        slot_end = datetime.combine(day, parse_time(e))#.replace(tzinfo=PARIS_TZ)
+
+        if slot_overlap(course_start, course_end, slot_start, slot_end):
+            used.append({
+                "start": slot_start,
+                "end": slot_end,
+                "name": courses["name"],
+            })
+
+    return used
+
+
+def find_oublies(courses, moodle_attendance):
+    """
+    courses : sorties de filter_events(hours_week())
+    moodle_attendance : sorties normalisées Moodle
+    """
+    oublie = []
+    course_slots = []
+
+    for course in courses:
+        course_slots = course_used_slots(course)
+
+        trouve = False
+
+        for c_slot in course_slots:
+            for m_slot in moodle_attendance:
+                if (
+                    c_slot["start"].date() == m_slot["start"].date()
+                    and c_slot["start"].time() == m_slot["start"].time()
+                ):
+                    trouve = True
+                    break
+            if trouve:
+                break
+
+        if not trouve:
+            oublie.append(course)
+
+    return oublie
+
+
+def hours_week():
+    """
+    From the API, get each courses and their starting hours for today
+    """
+    response = requests.get(URL_PLANNING)
+    try:
+        data = response.json()
+    except:
+        log_print(f"Impossible de récupérer les données de l'API, vérifiez votre ANNEE, SEMESTRE et TP")
+        quit()
+
+    lundi = (datetime.now(PARIS_TZ) - timedelta(days=4)).strftime("%Y-%m-%d")
+    mardi = (datetime.now(PARIS_TZ) - timedelta(days=3)).strftime("%Y-%m-%d")
+    mercredi = (datetime.now(PARIS_TZ) - timedelta(days=2)).strftime("%Y-%m-%d")
+    jeudi = (datetime.now(PARIS_TZ) - timedelta(days=1)).strftime("%Y-%m-%d")
+    vendredi = datetime.now(PARIS_TZ).strftime("%Y-%m-%d")
+
+    # Extract relevant fields and convert timestamps
+    events = [
+        {
+            "name": event["summary"],
+            "start": datetime.fromisoformat(event["startDate"].replace('Z', '')).replace(tzinfo=pytz.timezone('UTC')).astimezone(PARIS_TZ),
+            "end": datetime.fromisoformat(event["endDate"].replace('Z', '')).replace(tzinfo=pytz.timezone('UTC')).astimezone(PARIS_TZ),
+        }
+        for event in data.get("events", [])
+        if datetime.fromisoformat(event["startDate"].replace('Z', '')).strftime("%Y-%m-%d") in (lundi, mardi, mercredi, jeudi, vendredi)
+    ]
+
+    return events
+
+
+def check_forget_attendancy():
+    if RECAP == "oui" :
+        courses_week = filter_events(hours_week())
+        emarged = recup_emargement()
+        moodle_norm = normalize_moodle_attendance(emarged)
+        oublie = find_oublies(courses_week, moodle_norm)
+        message = ""
+        if len(oublie) != 0 :
+            message += "Oubli d'émargement :\n"
+            for o in oublie:
+                message += f"- {o['name']} le {o['start'].strftime('%d/%m/20%y')} de {o['start'].strftime('%H:%M')} à {o['end'].strftime('%H:%M')}\n"
+        else :
+            message += "Aucun oubli d'émargement cette semaine !"
+
+        send_notification(message)
+        log_print(message)
+
 def hours_Emarge():
     """
     From the API, get each courses and their starting hours for today
@@ -381,6 +664,9 @@ def schedule_random_times():
     schedule.clear()
     schedule.every().day.at("07:00").do(schedule_random_times)
     times = []
+
+    if datetime.now(PARIS_TZ).weekday() == 4:
+        schedule.every().day.at("20:00").do(check_forget_attendancy)
 
     # Check if current day is weekend (5 = Saturday, 6 = Sunday)
     if datetime.now(PARIS_TZ).weekday() >= 5:
