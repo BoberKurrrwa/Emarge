@@ -23,6 +23,7 @@ Les variables à modifier sont les suivantes :
 - `Pa` : Votre mot de passe UBS
 - `blacklist` : Liste de mots-clés pour exclure certains cours de l'émargement
 - `TOPIC` : Votre topic nfty est à configurer [ici](#-notification) (Il sert a recevoir des notifications sur votre téléphone)
+- `RECAP` : Vous permet de savoir en fin de semaine si ovus avez oublié un ou plusieurs émargements (oui ou non)
 
 Exemple de configuration d'un cyberdefense en 3eme année dans le TP 1
 ```yaml
@@ -33,6 +34,7 @@ Exemple de configuration d'un cyberdefense en 3eme année dans le TP 1
 - Pa=MonSuperMotDePasse
 - blacklist=Entrainement Le Robert, Activités HACK2G2, Activités GCC, Séminaire Facteur Humain
 - TOPIC=XXXXXXXXXXX
+- RECAP=oui
 ```
 
 > [!NOTE]
