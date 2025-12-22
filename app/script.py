@@ -80,6 +80,12 @@ if FORMATION not in {"cyberdefense", "cyberdata", "cyberlog"}:
     time.sleep(5)
     quit()
 
+
+if RECAP != 'oui' or RECAP != 'non':
+    print(f"[{RED}-{RESET}] Vous devez d'abord définir la variable d'environnement RECAP dans le docker-compose.yml ('oui' ou 'non' )")
+    time.sleep(5)
+    quit()
+
 API_URL = "https://planningsup.app/api/v1/calendars"
 if A == "3":
     S = 5
