@@ -75,7 +75,7 @@ Il est aussi possible de passer le programme en mode notification seulement et i
 > [!NOTE]
 > Les **topics** sont partagés et hébergés sur un serveur public, entrez donc une valeur aléatoire pour éviter de recevoir des notifications indésirables envoyées par d'autres utilisateurs ainsi que de partager vos notifications
 
-Merci à [@ElouanFiore](https://github.com/ElouanFiore) pour l'intégration
+Merci à [@0xCr0wbar](https://github.com/0xCr0wbar) pour l'intégration
 
 ## Upgrade
 
