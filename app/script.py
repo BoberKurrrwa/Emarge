@@ -86,17 +86,17 @@ if RECAP != 'oui' or RECAP != 'non':
     time.sleep(5)
     quit()
 
-API_URL = "https://planningsup.app/api/v1/calendars"
+API_URL = "https://planningsup.app/api/plannings/"
 if A == "3":
     S = 5
-    URL_PLANNING =  f"{API_URL}?p=ensibs.{FORMATION}.{A}emeannee.semestre{S}s{S}.tp{TP}"
-    URL_PLANNING += f",ensibs.{FORMATION}.{A}emeannee.semestre{S+1}s{S+1}.tp{TP}"
+    URL_PLANNING =  f"{API_URL}ensibs.{FORMATION}.{A}emeannee.semestre{S}s{S}.tp{TP}?events=true"
+    URL_PLANNING += f",ensibs.{FORMATION}.{A}emeannee.semestre{S}s{S}.tp{TP}?events=true"
 elif A == "4":
     S = 7
-    URL_PLANNING =  f"{API_URL}?p=ensibs.{FORMATION}.{A}emeannee.semestre{S}s{S}.tp{TP}"
-    URL_PLANNING += f",ensibs.{FORMATION}.{A}emeannee.semestre{S+1}s{S+1}.tp{TP}"
+    URL_PLANNING =  f"{API_URL}ensibs.{FORMATION}.{A}emeannee.semestre{S}s{S}.tp{TP}?events=true"
+    URL_PLANNING += f",ensibs.{FORMATION}.{A}emeannee.semestre{S}s{S}.tp{TP}?events=true"
 elif A == "5":
-    URL_PLANNING =  f"{API_URL}?p=ensibs.{FORMATION}.{A}emeannee.tp{TP}"
+    URL_PLANNING =  f"{API_URL}ensibs.{FORMATION}.{A}emeannee.semestre{S}s{S}.tp{TP}?events=true"
 else:
     print(f"[{RED}-{RESET}] Votre ANNEE doit être 3, 4 ou 5")
     time.sleep(5)
